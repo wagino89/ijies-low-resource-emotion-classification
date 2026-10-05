@@ -1,0 +1,58 @@
+{
+  "python": "3.12.13",
+  "torch": "2.10.0+cu128",
+  "transformers": "5.0.0",
+  "sklearn": "1.6.1",
+  "xgboost": "3.2.0",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "shap": "0.51.0",
+  "gpu": "Tesla T4",
+  "seeds": [
+    42,
+    7,
+    13,
+    77,
+    101,
+    202,
+    303,
+    404,
+    505,
+    606
+  ],
+  "lc_seeds": [
+    42,
+    7,
+    13,
+    77,
+    101
+  ],
+  "lc_sizes": [
+    100,
+    250,
+    500,
+    750,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3510
+  ],
+  "smoke_test": false,
+  "encoders": {
+    "e5": {
+      "name": "intfloat/multilingual-e5-base",
+      "prefix": "query: "
+    },
+    "xlmr": {
+      "name": "xlm-roberta-base",
+      "prefix": null
+    },
+    "indobert": {
+      "name": "indobenchmark/indobert-base-p1",
+      "prefix": null
+    }
+  },
+  "main_encoder": "e5"
+}

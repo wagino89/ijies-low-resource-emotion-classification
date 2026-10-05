@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Evaluated pipeline (E5)" id="RHExkNPCdZJwUVHDanMz">
+    <mxGraphModel dx="1032" dy="1664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" value="&lt;b&gt;SemEval-2025 Task 11&lt;/b&gt;&lt;br&gt;Sundanese, Javanese,&lt;br&gt;Indonesian&lt;br&gt;multi-label, 6 emotions" vertex="1">
+          <mxGeometry height="76" width="182" x="8" y="-4" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" value="&lt;b&gt;Tokopedia (PRDECT-ID)&lt;/b&gt;&lt;br&gt;Indonesian reviews&lt;br&gt;single-label, 5 emotions" vertex="1">
+          <mxGeometry height="64" width="182" x="200" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" value="&lt;b&gt;1. Fixed train / val / test split&lt;/b&gt;&lt;br&gt;65/15/20, stratified, per seed" vertex="1">
+          <mxGeometry height="48" width="262" x="38" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" value="&lt;b&gt;2. Frozen multilingual encoder&lt;/b&gt;&lt;br&gt;multilingual-E5-base&lt;br&gt;prefix “query: ”&lt;br&gt;masked mean pooling + L2" vertex="1">
+          <mxGeometry height="76" width="262" x="38" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" value="&lt;b&gt;3. StandardScaler + PCA (95%)&lt;/b&gt;&lt;br&gt;fitted on fitting data only" vertex="1">
+          <mxGeometry height="48" width="262" x="38" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" value="&lt;b&gt;4. Imbalance-aware hybrid head&lt;/b&gt;&lt;br&gt;cost-sensitive XGBoost +&lt;br&gt;class-weighted LR (C = 0.1)" vertex="1">
+          <mxGeometry height="62" width="262" x="38" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" value="&lt;b&gt;5. Out-of-fold selection&lt;/b&gt;&lt;br&gt;5-fold CV on train + validation&lt;br&gt;w: P = w·P&lt;sub&gt;XGB&lt;/sub&gt; + (1−w)·P&lt;sub&gt;LR&lt;/sub&gt;&lt;br&gt;thresholds τ&lt;sub&gt;c&lt;/sub&gt; (multi-label) or&lt;br&gt;class priors α&lt;sub&gt;k&lt;/sub&gt; (single-label)" vertex="1">
+          <mxGeometry height="100" width="262" x="38" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" value="&lt;b&gt;6. Final fit on train + val.&lt;/b&gt;&lt;br&gt;with selected w and τ&lt;sub&gt;c&lt;/sub&gt; / α&lt;sub&gt;k&lt;/sub&gt;" vertex="1">
+          <mxGeometry height="48" width="262" x="38" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-9" parent="1" style="rounded=1;arcSize=18;strokeWidth=2;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" value="&lt;b&gt;7. Test evaluation&lt;/b&gt;&lt;br&gt;Macro F1 (primary), Micro F1&lt;br&gt;corrected resampled t-test, 95% CI" vertex="1">
+          <mxGeometry height="62" width="262" x="38" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-10" parent="1" style="rounded=0;dashed=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" value="&lt;b&gt;SHAP interpretation&lt;/b&gt;&lt;br&gt;Partition explainer&lt;br&gt;on raw text&lt;br&gt;AOPC deletion /&lt;br&gt;insertion vs. random" vertex="1">
+          <mxGeometry height="114" width="150" x="320" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-11" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;exitX=0.5;exitY=1;entryX=0.2;entryY=0;" target="95wAcXfaC6ZCzw9-YHku-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="72" />
+              <mxPoint x="90" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-12" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;exitX=0.5;exitY=1;entryX=0.825;entryY=0;" target="95wAcXfaC6ZCzw9-YHku-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254.13" y="66" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-13" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="95wAcXfaC6ZCzw9-YHku-4" value="train + validation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-14" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="95wAcXfaC6ZCzw9-YHku-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-15" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="95wAcXfaC6ZCzw9-YHku-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-16" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="95wAcXfaC6ZCzw9-YHku-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-17" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="95wAcXfaC6ZCzw9-YHku-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-18" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="95wAcXfaC6ZCzw9-YHku-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-19" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;dashed=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;horizontal=0;labelPosition=left;" target="95wAcXfaC6ZCzw9-YHku-9" value="test partition (read once, never used for fitting or selection)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="122" />
+              <mxPoint x="20" y="643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-20" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;dashed=1;exitX=1;exitY=0.5;entryX=0.007;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" target="95wAcXfaC6ZCzw9-YHku-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95wAcXfaC6ZCzw9-YHku-21" edge="1" parent="1" source="95wAcXfaC6ZCzw9-YHku-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=5;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=2;dashed=1;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="95wAcXfaC6ZCzw9-YHku-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,12 @@
+dataset,cls,e5_hybrid,imbalance_aware,delta,wins,support_mean
+SemEval,anger,0.281,0.3298,0.0489,9,33.1
+SemEval,disgust,0.2011,0.2321,0.031,6,27.0
+SemEval,fear,0.1302,0.1733,0.0431,8,17.0
+SemEval,joy,0.8152,0.8127,-0.0024,7,191.0
+SemEval,sadness,0.6142,0.633,0.0188,8,71.0
+SemEval,surprise,0.4018,0.4142,0.0125,5,76.0
+Tokopedia,Anger,0.5015,0.5324,0.0309,9,140.0
+Tokopedia,Fear,0.5052,0.5152,0.01,8,184.0
+Tokopedia,Happy,0.8154,0.8117,-0.0038,4,354.0
+Tokopedia,Love,0.6216,0.675,0.0534,9,162.0
+Tokopedia,Sadness,0.6378,0.6278,-0.01,1,241.0
