@@ -1,0 +1,52 @@
+{
+  "python": "3.13.15",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.16.1",
+  "sklearn": "1.6.1",
+  "gpu": "Tesla T4",
+  "encoders": {
+    "xlmr": {
+      "name": "xlm-roberta-base",
+      "prefix": null,
+      "pooling": "first"
+    },
+    "e5": {
+      "name": "intfloat/multilingual-e5-base",
+      "prefix": "query: ",
+      "pooling": "mean"
+    }
+  },
+  "adapter": {
+    "reduction": 16,
+    "lr": 0.0001,
+    "wd": 0.01,
+    "batch": 16,
+    "max_epochs": 30,
+    "patience": 5,
+    "warmup": 0.1
+  },
+  "ubd": {
+    "lr": 1e-05,
+    "wd": 0.01,
+    "batch": 256,
+    "micro_batch": 64,
+    "clip": 3.0,
+    "max_steps": 500,
+    "eval_every": 25,
+    "train_last_blocks": 2
+  },
+  "seeds": [
+    42,
+    7,
+    13,
+    77,
+    101,
+    202,
+    303,
+    404,
+    505,
+    606
+  ],
+  "smoke_test": false,
+  "session_hours": 1.23
+}

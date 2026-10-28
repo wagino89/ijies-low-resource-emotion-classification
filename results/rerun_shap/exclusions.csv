@@ -1,0 +1,7 @@
+id,dataset,lang,reason
+ind_00140,SemEval,ind,token mismatch: SHAP 17 vs spans 16
+jav_00103,SemEval,jav,token mismatch: SHAP 12 vs spans 11
+jav_00135,SemEval,jav,token mismatch: SHAP 8 vs spans 7
+sun_00952,SemEval,sun,token mismatch: SHAP 14 vs spans 13
+sun_01076,SemEval,sun,token mismatch: SHAP 26 vs spans 25
+tok_02970,Tokopedia,ind,token mismatch: SHAP 21 vs spans 20

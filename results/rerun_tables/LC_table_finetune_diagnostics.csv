@@ -1,0 +1,22 @@
+regime,comparator,train_size,seeds,mean_best_epoch,mean_max_epochs,share_stopped_at_cap,mean_pred_classes,mean_train_time_s
+A_label_matched,FT (tuned),100,10,6.3,6.3,,4.8,7.562928855100108
+A_label_matched,FT (tuned),250,10,9.7,9.7,,5.0,27.092772011099804
+A_label_matched,FT (tuned),500,10,7.4,7.4,,5.0,41.5955340549996
+A_label_matched,FT (tuned),750,10,6.1,6.1,,5.0,50.60198747680029
+A_label_matched,FT (tuned),1000,10,6.1,6.1,,5.0,67.85006466380018
+B_selection_matched,FT (tuned),100,10,12.6,40.0,0.0,5.0,36.59202662790003
+B_selection_matched,FT (tuned),250,10,8.8,19.0,0.0,5.0,45.5396464263999
+B_selection_matched,FT (tuned),500,10,6.9,10.0,0.3,5.0,62.72265799529987
+B_selection_matched,FT (tuned),750,10,7.0,10.0,0.3,5.0,85.42162098189984
+B_selection_matched,FT (tuned),1000,10,5.9,10.0,0.1,5.0,106.03232329999969
+B_selection_matched,FT (tuned),1500,10,4.3,10.0,0.0,5.0,128.9790126535003
+B_selection_matched,FT (tuned),2500,10,5.3,10.0,0.1,5.0,230.29169090639985
+B_selection_matched,FT (tuned),3510,10,3.8,10.0,0.0,5.0,272.1521106473003
+B_selection_matched,LoRA (tuned),100,10,11.8,40.0,0.0,5.0,11.692299297000318
+B_selection_matched,LoRA (tuned),250,10,9.1,19.0,0.1,5.0,15.07623903420017
+B_selection_matched,LoRA (tuned),500,10,8.2,10.0,0.7,5.0,20.157729729400035
+B_selection_matched,LoRA (tuned),750,10,6.9,10.0,0.4,5.0,26.649729721099995
+B_selection_matched,LoRA (tuned),1000,10,7.4,10.0,0.6,5.0,33.577850397499695
+B_selection_matched,LoRA (tuned),1500,10,6.1,10.0,0.3,5.0,44.66886796710005
+B_selection_matched,LoRA (tuned),2500,10,6.3,10.0,0.3,5.0,73.5194903995999
+B_selection_matched,LoRA (tuned),3510,10,5.5,10.0,0.3,5.0,92.49413356119994

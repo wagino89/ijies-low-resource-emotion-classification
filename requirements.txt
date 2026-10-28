@@ -1,11 +1,12 @@
-numpy==2.0.2
+# Versions of the revision runs (notebooks 03-06); see results/*/pip_freeze_*.txt for the full environment
+numpy==2.1.3
 pandas==2.3.3
-scipy
+scipy==1.16.3
 scikit-learn==1.6.1
-xgboost==3.2.0
+xgboost==3.4.1
 shap==0.51.0
-torch
-transformers==5.0.0
+torch==2.11.0
+transformers==5.16.1
 iterative-stratification
 joblib
 matplotlib

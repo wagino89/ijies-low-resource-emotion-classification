@@ -1,0 +1,5 @@
+figure,id,dataset,lang,target,score,text
+SHAP_SemEval_ind,ind_00064,SemEval,ind,joy,0.9936880240101728,Gua muter lagu ini tiaphri sehari bisa smpe 6x lebih😂😂
+SHAP_SemEval_jav,jav_00128,SemEval,jav,sadness,0.989878489552062,"Eling kenangane, tapi ws ora karo wonge😢"
+SHAP_SemEval_sun,sun_00619,SemEval,sun,joy,0.9975333298207606,"Mantap mang lagu na👍👍kudu boga ieu mh euy vidio na keur nyepetan nu gaduh sametan😁😁 Sukses terus kanggo mang fiksi saparakanca, sehat utami na mah🙏kanggo sadayana 🙏"
+SHAP_Tokopedia_ind,tok_01603,Tokopedia,ind,Happy,0.9211822699646468,Produk berfungsi dengan baik.

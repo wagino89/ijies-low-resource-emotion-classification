@@ -1,0 +1,198 @@
+dataset,lang,id,text,target_idx,target,gold,correct,decision_status,label_set_exact,score,threshold,confidence,n_tokens,stratum_available
+SemEval,ind,ind_00044,"Cerita nya perempuannya cemburu gara gara di dua in , kira kira gitu teh",5,surprise,sadness,False,FP,False,0.950106901395851,0.19000000000000003,high,13,5
+SemEval,ind,ind_00058,"Dan nyatanya bisa di lakuin semua nya ,",3,joy,surprise,False,FP,False,0.9587516433831752,0.2500000000000001,high,7,5
+SemEval,ind,ind_00063,2024 apakah masih ada yang memutar lagu ini,2,fear,joy,False,FP,False,0.963193835170765,0.40000000000000024,high,8,5
+SemEval,ind,ind_00106,"Dia selalu jadi pribadi yang rendah hati , pemaaf dan bukan type orang yg suka cari sensasi",4,sadness,joy,False,FP,False,0.9766260743644333,0.5600000000000004,high,16,5
+SemEval,ind,ind_00120,16 Agustus 2023 ahhh tidak bisa dijelaskan lewat kata2 . Intinya masih terlalu baper belum bisa move on untuk yang ini😥😥,2,fear,joy|sadness,False,FP,False,0.9546648025358996,0.40000000000000024,high,20,5
+SemEval,ind,ind_00018,"butuh konsentrasi tinggi untuk memainkan kecrekan , apalah arti lagu ini tanpa kecrekan",3,joy,anger,False,FP,False,0.38514818213081703,0.2500000000000001,low,12,9
+SemEval,ind,ind_00034,Interludenya diambil dari lagu apa ya bang? Kayak pernah denger,3,joy,surprise,False,FP,False,0.28359281910677553,0.2500000000000001,low,10,9
+SemEval,ind,ind_00035,"Jodoh pati rejeki, rahasia paling rahasia dari Illahi 😢",3,joy,sadness,False,TN,False,0.22297039903704258,0.2500000000000001,low,8,9
+SemEval,ind,ind_00057,Aku sebagai penonton akan sll mendoaka n mereka bersatu kembali ❤❤❤❤,2,fear,joy|sadness,False,FP,False,0.7222636112215023,0.40000000000000024,low,10,9
+SemEval,ind,ind_00081,Lagunya enak cuman pakaian sama jogetnya kurang pas sama lagunya,5,surprise,disgust|joy,False,FP,False,0.753095155423747,0.19000000000000003,low,10,9
+SemEval,ind,ind_00090,"kalo pengen trending justru jangan di sebut sebut, karena bisa dianggap SPAM.",2,fear,anger,False,FP,False,0.6741782903379836,0.40000000000000024,low,12,9
+SemEval,ind,ind_00107,Dan batas usia melihat 13+ You know lah 😑,5,surprise,anger|disgust,False,FP,False,0.7791902803413521,0.19000000000000003,low,8,9
+SemEval,ind,ind_00136,"alangkah baiknya tidak pegang rokok, karena itu tidak baik, lebih keren tanpa rokok, ",3,joy,disgust,False,FP,False,0.7145762540535358,0.2500000000000001,low,13,9
+SemEval,ind,ind_00015,"Aku ingat waktu kecil lihat cak percil, di janger ""gaung Bawono"" nari jaran goyang saat itu, ,sukses terus cak percil, 👍👍👍",5,surprise,joy|sadness,False,FP,False,0.799280470720384,0.19000000000000003,mid,20,4
+SemEval,ind,ind_00062,"Pengucapannya terdengar aneh dikuping wong jowo,",5,surprise,disgust,False,FP,False,0.9222297188618181,0.19000000000000003,mid,6,4
+SemEval,ind,ind_00128,Gk bisa di download padahal kane👌🏻,4,sadness,anger|surprise,False,FP,False,0.8461605382433319,0.5600000000000004,mid,6,4
+SemEval,ind,ind_00140,"""Yang berat itu mereset otak untuk tidak memikirkan orang yang selama ini ada di dalam pikiran",2,fear,sadness,False,FP,False,0.8577597191412858,0.40000000000000024,mid,16,4
+SemEval,ind,ind_00064,Gua muter lagu ini tiaphri sehari bisa smpe 6x lebih😂😂,3,joy,joy,True,TP,True,0.9936880273990453,0.2500000000000001,high,10,6
+SemEval,ind,ind_00075,"Ada sesuatu yg belum bisa kupahami dalam hidup ini?mengapa? Karena engkau diturunkan kebumi untuk membuatku mengerti akan arti hidup ini,terlebih lg kau adalah titipane gusti.",4,sadness,joy|sadness,True,TP,False,0.9534883097438697,0.5600000000000004,high,27,6
+SemEval,ind,ind_00077,"Apalagi saya ini mau ngelakuin tapi takut entar dipantau semua orang gerak-gerikku ini apalagi sekarang semua pada pegang HP berkamera, jadi sulit mendekati arek wedok di tempat-tempat umum yang ramai -_-",2,fear,fear,True,TP,False,0.9589708437930344,0.40000000000000024,high,33,6
+SemEval,ind,ind_00088,Masalah e akeh sing gagal di sebuah proses nya dikarenakan dikejar waktu dan uang makan,0,anger,anger,True,TP,False,0.9557207498343085,0.39000000000000024,high,15,6
+SemEval,ind,ind_00095,"Jangan lupa di ss bang, nambah di album favorit😅",3,joy,joy,True,TP,True,0.9826966530316618,0.2500000000000001,high,9,6
+SemEval,ind,ind_00113,Baru nonton film ini lagi untuk yg ketiga kalinya. Gak bosen! Critane apik! Lucune pas! Lagune jos! Cocok gawe segala kalangan. Sukses terus mas bayu!,3,joy,joy|surprise,True,TP,True,0.9664215490414962,0.2500000000000001,high,25,6
+SemEval,ind,ind_00001,"Brebes mili aku, semoga sllu sukses",3,joy,joy,True,TP,True,0.325643700693718,0.2500000000000001,low,6,2
+SemEval,ind,ind_00020,Emg peran Cwek di MVnya itu si cwek tik tokk itu?,5,surprise,surprise,True,TP,True,0.6877784517804928,0.19000000000000003,low,11,2
+SemEval,ind,ind_00019,"Coba kamu komen diakun dia, mau nggak bro mampir ke warung??",0,anger,anger,True,TP,False,0.9267738099110017,0.39000000000000024,mid,11,7
+SemEval,ind,ind_00038,Atuh meren jadi lain pemuda berbahaya,5,surprise,disgust|surprise,True,TP,False,0.9445268950953758,0.19000000000000003,mid,6,7
+SemEval,ind,ind_00084,Bayu ajak kenter dan henasatya main dengan kamu,3,joy,joy,True,TP,False,0.945996003026888,0.2500000000000001,mid,8,7
+SemEval,ind,ind_00109,"Lagu jawa memang beda, sy jawa(Klaten) tapi sdh kelamaan tinggal di Bekasi, 😥",5,surprise,sadness|surprise,True,TP,False,0.9131329928049834,0.19000000000000003,mid,13,7
+SemEval,ind,ind_00111,1:30 langsung dibanned jadi calon mantu 😂,3,joy,joy|surprise,True,TP,True,0.9271555832250986,0.2500000000000001,mid,7,7
+SemEval,ind,ind_00143,Ga sekalian di download 1080mp saja paduka?,5,surprise,joy|surprise,True,TP,False,0.8422839689715235,0.19000000000000003,mid,7,7
+SemEval,ind,ind_00150,"Abdi sebagai orang Sunda tidak bisa berkata kata lg selain bangga, punya generasi muda yang cantik, yg slalu membawakan lagu lawas Sunda dengan versi azmy dan tim membuat lagu tsbt banyak digandrungi ke pelosok Indonesia maupun luar negeri, pokoknya sukses dan terus lanjutkan",3,joy,joy,True,TP,False,0.9062721699353314,0.2500000000000001,mid,43,7
+SemEval,jav,jav_00025,Lah iki komen . Yak opo seh mbak mbak wkwk,0,anger,surprise,False,FP,False,0.9551069258383053,0.39000000000000024,high,9,4
+SemEval,jav,jav_00073,"Bro sdiluk kas wyah udan maneh, gak mbok payungi neh ta.?? 😅",3,joy,fear|surprise,False,FP,False,0.9121195435572546,0.2500000000000001,high,11,4
+SemEval,jav,jav_00103,"""Iso gawe nyaman ra jaminan duweni atimu, "" Dalem bgt itu wkwkwk",0,anger,sadness,False,FP,False,0.9335410320629127,0.39000000000000024,high,11,4
+SemEval,jav,jav_00119,Bayu Skak aku paling gak seneng sing golek perhatian.,0,anger,none,False,FP,False,0.9478531134009696,0.39000000000000024,high,9,4
+SemEval,jav,jav_00033,2022 ijeh seneng lagu iki mergo kenangane,3,joy,sadness,False,FP,False,0.3935280027457625,0.2500000000000001,low,7,6
+SemEval,jav,jav_00110,"Haha gokil brother, ane yo dolanan game iki",5,surprise,joy,False,FP,False,0.6485675506865172,0.19000000000000003,low,8,6
+SemEval,jav,jav_00120,"Mbiyen wes tak wanti wanti, Ojo ngasi lali, Tapi kenyataannya pergi, (Nyindir wong utang)😂",5,surprise,disgust|joy,False,FP,False,0.7172676704423161,0.19000000000000003,low,14,6
+SemEval,jav,jav_00121,"Coret ktp pacitan. Pacitan bakuh ora ambyaran, hahah",3,joy,none,False,FP,False,0.7659400211895814,0.2500000000000001,low,8,6
+SemEval,jav,jav_00134,Lagu sg paling tak seneng ng film yowis ben 2,4,sadness,joy,False,FP,False,0.6718037258172637,0.5600000000000004,low,10,6
+SemEval,jav,jav_00139,Hadiirr lek Iseh kelingan ae karo mantan seng saiki ws rabi😅🥲,3,joy,sadness,False,FP,False,0.8180706776209677,0.2500000000000001,low,11,6
+SemEval,jav,jav_00017,"Mas bay, aku pingen gawe video koyo sampean tapi bingung gawe naskahe Aku tak nyontek seko videone sampean ra popo yo mas",0,anger,fear,False,FP,False,0.8876657009317505,0.39000000000000024,mid,22,7
+SemEval,jav,jav_00049,"Jaman saiki gak onok dulinan lawas koyok nekeran, patel lele, engkleng, dll arek saiki lek nongkrong podo sibuk nang hapene dewe-dewe :( ojo lali nonton sisan channelku rek, aku gawe video gendeng ndilati timun karo njaluk pin cewek gak kenal :D",5,surprise,joy,False,FP,False,0.8897652226510028,0.19000000000000003,mid,41,7
+SemEval,jav,jav_00058,"Alhamdulillah nek entok yo, tak gawe bisnis online, ben koyok awakmu sak iki, sg iso ngae skak food. Terus, ak bakal ngae video sg kualitas apik, ketimbang video youtube ku sg mbiyen"" sg kualitas video ne elek. Kuwi tok ae mas bay. Mergo awakmu inspirasi ku, 😁😁 #heybayuskak #giveaway #vivoSI",0,anger,joy,False,FP,False,0.9023745290982267,0.39000000000000024,mid,49,7
+SemEval,jav,jav_00063,"Aku milu lara ati mas ngrungu karyamu ana seng niru2 😢 tetep semangat mas Denny, Salam sing Pastenan Indramayu ❤",3,joy,none,False,FP,False,0.846421864718256,0.2500000000000001,mid,18,7
+SemEval,jav,jav_00100,"4:36 Heh papat!?, iki ongko opo kursi kuwalek iki!?. Kene! 😭 (Sadboy)",5,surprise,sadness,False,FP,False,0.9002085161726291,0.19000000000000003,mid,12,7
+SemEval,jav,jav_00131,Like kabeh lur ben dideleng ambek mas bayu,0,anger,joy,False,FP,False,0.8189119371743454,0.39000000000000024,mid,8,7
+SemEval,jav,jav_00135, Z inget neng ah wkwk Lembang hadir,3,joy,none,False,FP,False,0.8496409503066886,0.2500000000000001,mid,7,7
+SemEval,jav,jav_00002,"Denny caknan wes ora asik, pacaran karo sopo rabi karo sopo, sebagai penggemar kecewa aku",1,disgust,anger|disgust|sadness|surprise,True,TP,True,0.9696178752070739,0.4400000000000003,high,15,6
+SemEval,jav,jav_00010,Apik nemen sing gawek video iki sampe ngakak aku su,3,joy,joy,True,TP,False,0.9052147779931513,0.2500000000000001,high,10,6
+SemEval,jav,jav_00069,Jm 11 wengi oleh kabar nek bocah wedok seng tk sayang meteng kro wong liyo 😢,0,anger,anger|disgust|sadness|surprise,True,TP,False,0.9355504542781099,0.39000000000000024,high,15,6
+SemEval,jav,jav_00087,"Coba ae aku ndue rok ngono iku, paleng kro buk ku wes di ngge serbet 🤣🤣🤣",3,joy,joy|surprise,True,TP,False,0.9304710788350444,0.2500000000000001,high,15,6
+SemEval,jav,jav_00099,17 desember 2023 kangen karo sugeng dalu lagu pavorit sepanjang masa 😢😢😢😢,4,sadness,anger|fear|sadness,True,TP,False,0.9775304320883802,0.5600000000000004,high,11,6
+SemEval,jav,jav_00128,"Eling kenangane, tapi ws ora karo wonge😢",4,sadness,anger|fear|sadness,True,TP,False,0.9898784895950257,0.5600000000000004,high,7,6
+SemEval,jav,jav_00043,"Umume mas mbak, Wong lanang/ wedok lek sek rung wani nguwei kejelasan kui sing jelas wonge sek pengen dolanan rono rene, Titik",0,anger,anger|disgust,True,TP,False,0.6773179840499358,0.39000000000000024,low,22,5
+SemEval,jav,jav_00072,Koq ra nyambung karo episode 1 karo 2 to cak?? ☕☕,5,surprise,surprise,True,TP,False,0.4016487608744734,0.19000000000000003,low,10,5
+SemEval,jav,jav_00090,"0:23 totok durung cewok😂😂🤣 Totok pakdeku met,untung ra delok karo pakdeku🤣🤣",3,joy,joy|surprise,True,TP,True,0.7387489087194717,0.2500000000000001,low,13,5
+SemEval,jav,jav_00101,Jos bay Ojo lali Karo pengeranmu Yo Gusti Allah sing gawe Kowe berhasil,3,joy,joy,True,TP,True,0.6993008672677539,0.2500000000000001,low,13,5
+SemEval,jav,jav_00118,Jebul karo kampanye prabowo ono patung tangan ✌,5,surprise,surprise,True,TP,False,0.7032709286106309,0.19000000000000003,low,7,5
+SemEval,jav,jav_00035,Arep di gae makaryo ben iso gowo budaya jawa ning manca negara?? Kate nutuk bonang nganggo vivoS1 ta mas?? 😅,5,surprise,surprise,True,TP,False,0.8473734120618207,0.19000000000000003,mid,19,3
+SemEval,jav,jav_00061,Karo seng saiki koyone kblocok tenan mbk heppy asmara ki 😢,0,anger,anger|sadness|surprise,True,TP,False,0.887980141049686,0.39000000000000024,mid,10,3
+SemEval,jav,jav_00091,"Ambyar sak ambyar ambyare. lagu favorit persis koyo kisahku❤️ saben dino tak rungoke ra pernah bosen. ""Gede egomu sing ngambyarke kabeh impian 🌈""",3,joy,joy|sadness|surprise,True,TP,False,0.8767968790511684,0.2500000000000001,mid,22,3
+SemEval,sun,sun_00191,"kudu enggal enggal kawin ieu mah, soal na seeur nyarios gera kawinn tos bujangan hihi",1,disgust,fear|joy,False,FP,False,0.9661276013934008,0.4400000000000003,high,15,4
+SemEval,sun,sun_00529,"Logat Majalengka emang khas na kitu teu heran urang mah, Bener lah meningan keneh jadi patani, da lamun aweuh patani nu beunghar maol bisa dahar heuh teu",3,joy,sadness,False,FP,False,0.9611145683604657,0.2500000000000001,high,27,4
+SemEval,sun,sun_00870,pastina ath mang ku abdi shere ken knu grup + SW,3,joy,none,False,FP,False,0.975067487829519,0.2500000000000001,high,10,4
+SemEval,sun,sun_01086,Boga kaleuwihan naon manh jang? Abdimah bisa ngaridokeun manehna jeung nu lain pak:(,3,joy,sadness,False,FP,False,0.9667421075343324,0.2500000000000001,high,13,4
+SemEval,sun,sun_00015,"Hmmm teu tiasa berkata² deui , sedih pmi di dangukeun lirikna , Komo bari ningal klip na duh deg pisan kana hate na teh",5,surprise,fear|sadness,False,FP,False,0.7174275011269958,0.19000000000000003,low,22,34
+SemEval,sun,sun_00468,Mng fiksi kunaon aya nu di tutupan mukana?,5,surprise,joy,False,FP,False,0.4120621707811517,0.19000000000000003,low,8,34
+SemEval,sun,sun_00533,Mang ngadamel kontenak nu lucu pisan,1,disgust,joy,False,FP,False,0.775898315310303,0.4400000000000003,low,6,34
+SemEval,sun,sun_00608,Eeehh teh euis apa teh mira ieu.? 😁😁,5,surprise,joy,False,FP,False,0.809857054049312,0.19000000000000003,low,7,34
+SemEval,sun,sun_00662,Sing getol nginum jamu Nu guna nguatkeun urat Sing getol neang elmu Nu guna dunya aherat 😢😢😢,3,joy,fear|sadness,False,FP,False,0.79368810134637,0.2500000000000001,low,16,34
+SemEval,sun,sun_00789,"Hayang ngabaledog eta beungeut si careuh, haa",3,joy,anger|disgust,False,FP,False,0.6353026361491142,0.2500000000000001,low,7,34
+SemEval,sun,sun_00959,Ah anying teu apal rek ka kuningan :(,5,surprise,anger|sadness,False,FP,False,0.6996668277331616,0.19000000000000003,low,7,34
+SemEval,sun,sun_01054,"Aduh alah iyeuuu, bukan aduh alah ieung",5,surprise,joy,False,FP,False,0.8108830522112006,0.19000000000000003,low,7,34
+SemEval,sun,sun_00188,"Salam mang ti orang Bogorr opiksqb 😎😁 aslina euyy indah deh Zaman bahela mah ulina teh disawahh wehh yg lahiran 90""an pasti karasa pisan pernah Ngalaman kabeh",5,surprise,joy|sadness,False,FP,False,0.9085721200078523,0.19000000000000003,mid,27,27
+SemEval,sun,sun_00341,Nah kan loba nu teu apal haa,5,surprise,none,False,FP,False,0.884318861862437,0.19000000000000003,mid,7,27
+SemEval,sun,sun_00414,mang ieu Garnita inget kneh teu :(,5,surprise,sadness,False,FP,False,0.884097683466259,0.19000000000000003,mid,6,27
+SemEval,sun,sun_00490,"lagu terlalu sadis kang,supados rada di joakeun, wios kusaha wae lah nu cover na asal ayaa yowwww 3 pemuda berbahaya",5,surprise,joy,False,FP,False,0.9168841562332253,0.19000000000000003,mid,21,27
+SemEval,sun,sun_00540,"Mang, lamun ngajieun pidio make kamera naon? Barahaan😂",2,fear,joy,False,FP,False,0.8757324394218181,0.40000000000000024,mid,8,27
+SemEval,sun,sun_00731,suara maneh teu singkron jeung beunget. geuslah ayeunamah maneh mening dagang papais!! :(((,5,surprise,anger|disgust|joy,False,FP,False,0.9170901479090695,0.19000000000000003,mid,12,27
+SemEval,sun,sun_00952,<a>Mang naha mundur? <b>Percuma maju gee kuli mhk eleuh ku pns😭,0,anger,joy|sadness,False,FP,False,0.8938617845598092,0.39000000000000024,mid,13,27
+SemEval,sun,sun_01058,"Aslina da aneh, nu ngaHutang leuwih Galak !",5,surprise,anger|disgust,False,FP,False,0.9022564745954503,0.19000000000000003,mid,7,27
+SemEval,sun,sun_00281,Tempatna enakeun euy sigah di jepang jepang Kitu.,5,surprise,joy|surprise,True,TP,False,0.9630677715831942,0.19000000000000003,high,8,71
+SemEval,sun,sun_00345,sakitnya tuh di sini :thanksdoc:di duakeun teh,4,sadness,sadness,True,TP,False,0.9895016366332656,0.5600000000000004,high,8,71
+SemEval,sun,sun_00375,Sok sedih mun ngadangu lagu ieu teh Sok inget papatah kolot pas baheula hmm,4,sadness,sadness,True,TP,True,0.9940487052339909,0.5600000000000004,high,14,71
+SemEval,sun,sun_00417,"mang dana nuhun tos ngawaler komentar abdi . Semakin ngefans 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥 . Siap mang sami-sami , salam cianjur 😊",3,joy,joy|surprise,True,TP,True,0.9901512992473103,0.2500000000000001,high,15,71
+SemEval,sun,sun_00588,Wasuh lewih parah aa mah geuningan pa 😂😂😂,3,joy,joy|surprise,True,TP,True,0.9847792723488227,0.2500000000000001,high,7,71
+SemEval,sun,sun_00619,"Mantap mang lagu na👍👍kudu boga ieu mh euy vidio na keur nyepetan nu gaduh sametan😁😁 Sukses terus kanggo mang fiksi saparakanca, sehat utami na mah🙏kanggo sadayana 🙏",3,joy,joy,True,TP,False,0.9975333296207173,0.2500000000000001,high,28,71
+SemEval,sun,sun_00636,"Sabaraha greget maneh jadi urang sunda? Kamari urang meuli motor sport,terus? Meulina langsung cash,tpi duitna recehan kabehh😂",3,joy,joy,True,TP,True,0.9666269243512867,0.2500000000000001,high,19,71
+SemEval,sun,sun_00899,Ngajieun bahasa bucin di Sunda mang🤣 Salam ti Singaparna.,3,joy,joy,True,TP,False,0.9918272652703232,0.2500000000000001,high,9,71
+SemEval,sun,sun_00000,Kumaha mang fiksi engke ka sabilulungan mang salam bandung soreang,3,joy,joy|surprise,True,TP,False,0.41951201048799835,0.2500000000000001,low,10,42
+SemEval,sun,sun_00029,teu pernah sare asa aneh ngadenge bahasa sundana.,5,surprise,joy|surprise,True,TP,True,0.6631909239001935,0.19000000000000003,low,8,42
+SemEval,sun,sun_00116,"Mng dana punten, selain tina YouTube jeung usaha Baunanachips penghasilan na tina naon deui? Hatur nuhun, salam ti sukabumi",3,joy,fear|joy,True,TP,False,0.8422839274451016,0.2500000000000001,low,19,42
+SemEval,sun,sun_00357,Ari ieu Sunda na dmana kang?,3,joy,joy,True,TP,False,0.617747675550698,0.2500000000000001,low,6,42
+SemEval,sun,sun_00372,"Pernah kadinya mang, reng kabogoh jajan pop ice 😁, , Tapi geus mantan ayeuna ma 😢",3,joy,joy|sadness,True,TP,False,0.651947906304688,0.2500000000000001,low,13,42
+SemEval,sun,sun_00865,req Badjing luncat sareng bubuy bulan,3,joy,joy,True,TP,False,0.7747070955458629,0.2500000000000001,low,6,42
+SemEval,sun,sun_01075,Aldi MH eweuh wkwk berarti teu psaran hhaha,3,joy,joy,True,TP,False,0.7964552389937941,0.2500000000000001,low,8,42
+SemEval,sun,sun_01076,"#Fauzi88Chanel hadir mang ti bogor kulon,Leuwiliang hebat deuh nu rek konser,tpi punten teu tiasa datang ka bandung,tebih euy ngadukung wae mang Dana",3,joy,joy|sadness,True,TP,False,0.6985662847009337,0.2500000000000001,low,25,42
+SemEval,sun,sun_00032,"Cek urang mah jelema goblog teh nyaeta, jelema nu menta udud ngomong teu boga, padahal Aya sabungkus dinu pesak 😂🤣",3,joy,anger|disgust|joy,True,TP,False,0.9374402521522653,0.2500000000000001,mid,19,48
+SemEval,sun,sun_00396,"tah ieu hade, naon deui ?",3,joy,joy,True,TP,False,0.9479279915466827,0.2500000000000001,mid,5,48
+SemEval,sun,sun_00482,"Ceunah di neraka teh da loba kneh awewe , ampun nya",5,surprise,fear|sadness|surprise,True,TP,False,0.9526945649616939,0.19000000000000003,mid,10,48
+SemEval,sun,sun_00623,Duh asa ker ngadengekeun lagu wali😂,3,joy,joy|surprise,True,TP,False,0.9482936590100869,0.2500000000000001,mid,6,48
+SemEval,sun,sun_00840,"Robirock, terminal ayeuna bos na saha kang?😁😁",3,joy,joy,True,TP,False,0.9192786182777181,0.2500000000000001,mid,7,48
+SemEval,sun,sun_00996,"Abiyasa Keren pisan, Umur nya masih kecil tapi bukan kaleng kaleng, mantap gasskeun",3,joy,joy|surprise,True,TP,True,0.9513218839668369,0.2500000000000001,mid,13,48
+SemEval,sun,sun_01052,"Abi orang sunda tpi karek ngadangu lagu ieu, enakeun pisan aslii apalgi yg ngelaguin na kak azmy hhe",3,joy,joy|surprise,True,TP,False,0.9249246869290573,0.2500000000000001,mid,18,48
+SemEval,sun,sun_01095,"A majalengkana timana?. Abi ti majalengka rajagaluh yeuhh,",3,joy,joy,True,TP,False,0.9461448186234278,0.2500000000000001,mid,8,48
+Tokopedia,ind,tok_00131,"Asli samsung, pelayanan sangat baik",2,Happy,Love,False,error,False,0.688693040720894,,high,5,49
+Tokopedia,ind,tok_00280,barangnya datang dalam keadaan tidak bagus,4,Sadness,Anger,False,error,False,0.686227276367232,,high,6,49
+Tokopedia,ind,tok_01428,"mantab, lilinya sesuai makasih ya",3,Love,Happy,False,error,False,0.7724648997257396,,high,5,49
+Tokopedia,ind,tok_01478,"NOT RECOMENDED SELLER ,gara2 Ini toko .. surprise buat ultah moment yg penting hancur gitu aja, .. parahhhhh ..nyesel banget,banget belanja ditoko ini !!!!!!",0,Anger,Sadness,False,error,False,0.7168367449672793,,high,22,49
+Tokopedia,ind,tok_01570,jumbo ternyata Setelah di buka ukuran nya cuma setengah kardusnya.. ????????????????????,4,Sadness,Fear,False,error,False,0.6827534292014067,,high,10,49
+Tokopedia,ind,tok_02273,"makasih banyak gan, sukses selaluu pelayanan mantapp barang asli. sukses selalu untuk seller dan semoga bisa terus kasih harga dan pelayanan yg mantapp",2,Happy,Love,False,error,False,0.6851052548970017,,high,23,49
+Tokopedia,ind,tok_02282,Istimewa...Akurat dan dicetak dengan sempurna,3,Love,Happy,False,error,False,0.7485500875065649,,high,6,49
+Tokopedia,ind,tok_02289,"Fast response, produk juga dikirim balik oke banget ????",3,Love,Happy,False,error,False,0.711335648561332,,high,8,49
+Tokopedia,ind,tok_02323,Mantabh surantab.. customer service nya very very reliable.. kartu nya dahsyat signal tetep seteroooong dibawa ke pelosok korea.. makasih yah kak,3,Love,Happy,False,error,False,0.780642684815198,,high,21,49
+Tokopedia,ind,tok_02497,"Sesuai dg deskrip yg jual, packing bagus, dan tidak ada cacat, nanti sy mau pesan lagi.",2,Happy,Love,False,error,False,0.698689333750348,,high,16,49
+Tokopedia,ind,tok_02949,terima kasih...brang bagus harga murah cepet lagi cod lagi...siip ????,3,Love,Happy,False,error,False,0.6756291652535664,,high,11,49
+Tokopedia,ind,tok_03381,"mudah copot di dasbord,lemnya kgk kuat",2,Happy,Fear,False,error,False,0.7186665089894027,,high,7,49
+Tokopedia,ind,tok_04126,"Yang penting keluar suara deh. Soal kualitas suara maaf ya, mungkin mirip sama mainan anak-anak berbentuk Handphone.",1,Fear,Anger,False,error,False,0.6944142933406929,,high,18,49
+Tokopedia,ind,tok_04758,Kualitas bahan bagus. kelengkapan sesuai. Packing Bagus. seller sangat fast respon. recomended.,2,Happy,Love,False,error,False,0.6812929502492708,,high,12,49
+Tokopedia,ind,tok_04961,"Belanja harus hati2, Tidak Jelas. Sangat Kecewa untuk belanja kali ini.",4,Sadness,Fear,False,error,False,0.7452794711242421,,high,11,49
+Tokopedia,ind,tok_00193,"barang baru datang pertma saya coba di samsung A52 bisa terbaca,baru saya pasang di cctv ternyta ga bisa.penasran saya coba di samsung m30 juga ga bisa,pensran lagi saya coba di oppo A15 ternyta ga bisa juga.masih pensran saya coba lagi disamsung A52 ternyta dh ga bisa.Seumur umur baru ini saya kasih bintang 1,klaim garansi ternyta ribet juga.kapok saya belnja di apliksi ini maupun toko ini,masih enkn tko seblah.komplain kepenjual disurh komplain ke toped,komplain toped disurh komplain dulu gimna baiknuy sama penjual.hadeh..pok kapok saya..",4,Sadness,Fear,False,error,False,0.4997037500178666,,low,95,185
+Tokopedia,ind,tok_00598,rasanya agak asem mungkin terlalu banyak tomat,4,Sadness,Fear,False,error,False,0.3707847255733515,,low,7,185
+Tokopedia,ind,tok_01846,"pesan 50 yg datang 47, karung sbagian banyak yg bolong ga bisa buat beras lagi.",1,Fear,Sadness,False,error,False,0.37326612939642445,,low,15,185
+Tokopedia,ind,tok_02064,"sedikit agak lama pengiriman nya, dan pengemasan plastiknya tipis",1,Fear,Sadness,False,error,False,0.48535242723607885,,low,9,185
+Tokopedia,ind,tok_02068,Matras nya ada sobek,0,Anger,Sadness,False,error,False,0.31878308769299435,,low,4,185
+Tokopedia,ind,tok_03290,"Produk tidak ORI (KW),tidak bekerja dengan baik.dikirim 2 PGP tidak bekerja di 2 hp saya Lenovo n Advan.Cuma jadi bangkai.After sales buruk,Respon seller kurang.no recommended.",4,Sadness,Fear,False,error,False,0.46486670998478674,,low,31,185
+Tokopedia,ind,tok_03309,"Saya sangat kecewa beli di toko ini?? seenak sendiri menaikan harga, padahal sudah deal beli... ditambah lagi admin nya sangat tidak ramah???? official store kok pelayanan seperti tidak profesional. Sangat tidak direkomendasikan membeli di sini. Pasti kecewa.",1,Fear,Sadness,False,error,False,0.47332613168770343,,low,37,185
+Tokopedia,ind,tok_03316,"dipenjualan tertulis obeng magnet ,bohong obengnya ga magnet sama sekali akan sulit untuk yang baru belajar jika tidak memiliki alat yang lengkap .kecewa parah",0,Anger,Sadness,False,error,False,0.4023973245755406,,low,24,185
+Tokopedia,ind,tok_03655,expirednya bentar lagi ??,0,Anger,Sadness,False,error,False,0.4708816579691518,,low,3,185
+Tokopedia,ind,tok_03692,"kemasannya memakai plastik, mudah mangap, rawan bocor, tidak sebanding dengan harganya",2,Happy,Fear,False,error,False,0.3440325204424738,,low,11,185
+Tokopedia,ind,tok_03800,kondisi barang agak kotor & sulit dibersihkan,4,Sadness,Fear,False,error,False,0.45122654510294535,,low,6,185
+Tokopedia,ind,tok_03902,"pengiriman lamaaaaaaaaaaaaa, ditanya dulu baru sadar",3,Love,Anger,False,error,False,0.2522403014176239,,low,6,185
+Tokopedia,ind,tok_04516,Pengiriman lama sekali. Respon penjual jg lambat,2,Happy,Sadness,False,error,False,0.4692289906280551,,low,7,185
+Tokopedia,ind,tok_04547,"tasnya bagus, ringan dan elegan. tapi sayang, dateng2 pas dibuka jahitan sebelah kanan sudah pada copot jdi lgsg saya bawa ke permak tas??",1,Fear,Sadness,False,error,False,0.41437205686734474,,low,23,185
+Tokopedia,ind,tok_04916,PO udah sebulan gak sampai cm d kirim voucher dan di janjikan minggu k 3 bulan juni di kirim .. cuman sampe skrg udh akhir bulan juni blm terima juga � di chat gak balas???,0,Anger,Fear,False,error,False,0.4376922839798483,,low,33,185
+Tokopedia,ind,tok_00451,"Kecewa karena pengiriman yang lama. Katanya gara-gara pembatasan pengiriman karena Covid-19. Pesan tgl 1, baru diambil untuk dikirim tgl 6 dan saya terima tgl 8. Masih bisa dimaklumi. Tapi eh, pas udah diterima, ternyata cuma dpt 1 kotak, padahal pesan 2. :(",0,Anger,Sadness,False,error,False,0.5448445837112681,,mid,43,126
+Tokopedia,ind,tok_00630,"pengiriman cepat, packaging nya okeee banget, isinya sesuai, ga gampang macet pas dipakai, pokonya bagusss bangettt terima kasih joyko????",3,Love,Happy,False,error,False,0.5789030849835565,,mid,19,126
+Tokopedia,ind,tok_01652,"mungkin karena filternya terlalu canggih, jadi air yang keluar jadi kecil banget.",1,Fear,Sadness,False,error,False,0.5474904758059687,,mid,12,126
+Tokopedia,ind,tok_01803,Mantap jiwa bang,3,Love,Happy,False,error,False,0.5923602373860037,,mid,3,126
+Tokopedia,ind,tok_01859,pesanan tidak sesuai ukuran.,1,Fear,Sadness,False,error,False,0.523597200732847,,mid,4,126
+Tokopedia,ind,tok_01968,"Alat Linting nya Patah/Rusak,...",4,Sadness,Fear,False,error,False,0.5339960944566436,,mid,5,126
+Tokopedia,ind,tok_02651,"Barang dateng pake kurir toko, di unboxing trnyt ad lecet/baret ampe besi ny keliatan sesuai dengan foto yg saya ambil. Dlm chat dgn owner tidak ad pertanggung jwban, chat sy cm di read dr smnjk kmrn mlm (6 april 2020 jam 8an mlm, smpe skg tgl 7 april 2020 jam 16.30an)",1,Fear,Anger,False,error,False,0.5368694843049405,,mid,53,126
+Tokopedia,ind,tok_03698,ko ga membantu dalam masalah jerawat .malah nambah banyak,1,Fear,Sadness,False,error,False,0.5676649612245384,,mid,9,126
+Tokopedia,ind,tok_03817,"tidak ada lapisan pelindung sama sekali, entah itu plastik ataupun wraping. dus yg diterima dalam keadaan penyok, ember banyak lecet. pengiriman sangat lama dari hari minggu sampe nya hari Rabu, padahal masih sama Jakarta. padahal beli nya di toko official resmi. lebih bagus beli di toko yg biasa. sebelumnya saya beli ditoko yg biasa buat hadiah 1 hari sampe, harga lebih murah packing bagus. ini toko resmi malah hancur, mana buat hadiah lagi. tutup aja tokonya...????????",1,Fear,Anger,False,error,False,0.628564521586807,,mid,76,126
+Tokopedia,ind,tok_03980,cepat pwngirima..tp sayanng beli 6 buku tp ada 1 buku yang sebagian halamannya kepotong sehinggaa 1 buku tsbut jd tidak bs dipakaii...sy sudah keburu konfirmasi penerimaan tanpa melihat bukunya dl....stlah konfirmasi dgn penjual alias japri jawaban kurang memuaskan...,1,Fear,Sadness,False,error,False,0.5218806016733217,,mid,41,126
+Tokopedia,ind,tok_04292,"ukurannya sesuai anak saya, bahannya bagus, anak saya suka. makasih ya",2,Happy,Love,False,error,False,0.5850146635013584,,mid,11,126
+Tokopedia,ind,tok_04322,"Alhamdulillah cepat sekali pengirimannya. Seller ramah, packing rapi, produk kondisi sangat baik. Tebalnya pas dan bahannya ok, sesuai perkiraan????Terima kasih",3,Love,Happy,False,error,False,0.5298424068572518,,mid,21,126
+Tokopedia,ind,tok_04335,Bahannya tebal. Warnanya cantik ??. Tidak licin. Ukuran sesuai. Modelnya Simple ??. Bahannya adem,2,Happy,Love,False,error,False,0.5979634331858523,,mid,12,126
+Tokopedia,ind,tok_04550,tidak sesuai gambar,1,Fear,Sadness,False,error,False,0.5261843828158453,,mid,3,126
+Tokopedia,ind,tok_05045,"kabel jack nya sangat tidak bagus. saya colok ke mic nya tidak terbaca, saya coba colok ke speaker harus di teken biar nyala suara. untuk mic nya bagus tapi saya harus pake jack yang lain.",1,Fear,Sadness,False,error,False,0.5548112270346862,,mid,35,126
+Tokopedia,ind,tok_00405,"respon penjual cepat, pengiriman cepat dankemasan rapih",2,Happy,Happy,True,correct,True,0.8346616258443401,,high,7,303
+Tokopedia,ind,tok_00555,"Mienya enak Favorit keluarga. Sudah langganan beli mie sedap di toko OS , packing rapi dan dpt bonus. makasih ya????",3,Love,Love,True,correct,True,0.7953797887415405,,high,19,303
+Tokopedia,ind,tok_01603,Produk berfungsi dengan baik.,2,Happy,Happy,True,correct,True,0.9211822627143034,,high,4,303
+Tokopedia,ind,tok_01973,Beli packing Dus sama bubble tp Dus ndak dikirim... Mohon diperhatikan kembali,1,Fear,Fear,True,correct,True,0.7351743323102131,,high,12,303
+Tokopedia,ind,tok_02568,Mantapppp.Build qualitynya josss Pertahankan,3,Love,Love,True,correct,True,0.6982579595631825,,high,5,303
+Tokopedia,ind,tok_02970,-Respon cepat & segera diproses -Pengiriman rapi & cepat -Piyama sesuai & nyaman digunakan -Adminnya ada inisiatif untuk mengirimkan warna piyama yang berbeda -?????,2,Happy,Happy,True,correct,True,0.6952865701467574,,high,20,303
+Tokopedia,ind,tok_03043,Sepatunya enteng. Solnya empuk. Nyaman dipakai. Ukurannya sesuai. Desainnya sporty ??. Proses pesanan cepat. Warnanya cantik. Packaging aman ??.,2,Happy,Happy,True,correct,True,0.7408272606292517,,high,17,303
+Tokopedia,ind,tok_03415,Ukurannya pas. Cepat menyerap. Tidak membuat lecet. Dapat bonus. Terima kasih yaa.,2,Happy,Happy,True,correct,True,0.8545617410414095,,high,12,303
+Tokopedia,ind,tok_03428,packing supeeerr rapi dan aman sampai rumah thank you seller semakin lancar usahanya,2,Happy,Happy,True,correct,True,0.7545215407321894,,high,13,303
+Tokopedia,ind,tok_03459,bahannya bagus. Adem,2,Happy,Happy,True,correct,True,0.7764075939011117,,high,3,303
+Tokopedia,ind,tok_04316,"Packaging rapi, barang sesuai pesanan & ekspektasi. Bahannya lembut, ringan, jahitannya rapi, dan warnanya cantik",2,Happy,Happy,True,correct,True,0.8174792674497059,,high,14,303
+Tokopedia,ind,tok_04800,Produk dan Layanan Bagus serta terpercaya,2,Happy,Happy,True,correct,True,0.8086841615343573,,high,6,303
+Tokopedia,ind,tok_04838,barang sampai dan sesuai harapan.,2,Happy,Happy,True,correct,True,0.8689415365176607,,high,5,303
+Tokopedia,ind,tok_05274,"Barang ok, sampai lengkap sesuai pesanan, pengemasan sangat rapi dan aman, pengiriman cepat, terima kasih.",2,Happy,Happy,True,correct,True,0.8058988370009048,,high,15,303
+Tokopedia,ind,tok_05339,"Produk Sesuai. Material Produk Bagus. Cocok untuk di jadikan tmpt penyimpanan masker.. Jadi lbh rapi dan enak di lihat, gampang untuk mengambil masker..",2,Happy,Happy,True,correct,True,0.7608007652523991,,high,23,303
+Tokopedia,ind,tok_00164,"packaging gk aman bgt, bubble wrap tipis alhasil kemasan barang agak penyok pas dateng, thank god barangnya aman. ini official store seharusnya lebih baik lagi, fix min next duh.",1,Fear,Fear,True,correct,True,0.3950871336408173,,low,29,175
+Tokopedia,ind,tok_00187,"Pengiriman laptop dr toko tidak dicek dahulu,.. laptop yg dikasih ke pembeli layar pecah, kerdus rusak,.. padahal packingan tidak ada yg rusak,... menghabiskan waktu saja, buat klaim ke tokpedia, berminggu minggu baru berhasil klaim ke pihak asuransi. Ternyata toko yg sudah verified tidak menjamin, Pelayanan toko ini buruk, respon cepat saat awal beli aja,.. saat dikomplen sangat lama, mengulur2 waktu, tidak mau tanggung jawab,.. padahal jelas komplainan langsung dihari berikutny setelah paket dibuka, yg seharusny, bisa langsung tuker unit langsung dr toko.... Trus Apa gunany ditulis di Deskripsi Garansi toko 3 hari ???... Cukup terakhir beli disini, thanks",1,Fear,Fear,True,correct,True,0.44421550656743586,,low,97,175
+Tokopedia,ind,tok_00688,Pelayanannya sangat buruk,0,Anger,Anger,True,correct,True,0.5076005302113196,,low,3,175
+Tokopedia,ind,tok_00779,"Pengiriman tidak sesuai jadwal , pengiriman sangat lama tidak di proses proses , di anjurkan sangat kalau buru� jgn beli di toko ini pelayanan buruk , hanya cepat membalas chat saat mau beli , klau sudah beli boro� di bales , di read saja tidak",1,Fear,Fear,True,correct,True,0.4093053794261171,,low,40,175
+Tokopedia,ind,tok_01369,exp dekat padahal udah beli banyak buat di jual lagi... ini pengalaman klo harga miring mumer harus waspada .,1,Fear,Fear,True,correct,True,0.5068587088496229,,low,18,175
+Tokopedia,ind,tok_01370,exp 26 april 2022 saya beli total kurang lebih 48pcs buat di jual lagi ... klo tau exp dekat g akan ambil .?? sudah ini dpt zonk segitu banyak mo dipakai sendiri g bakal habis sampai exp,1,Fear,Fear,True,correct,True,0.34227593328441114,,low,35,175
+Tokopedia,ind,tok_01473,1 pc warna pink. lampunya copot.. di chat complain gak dibales... kecewa sedikit,4,Sadness,Sadness,True,correct,True,0.45805683334332375,,low,13,175
+Tokopedia,ind,tok_01632,"respon seller sangat baik, catnya tidak berbau, warnanya sesuai order cheese cruse. pakingnya sangat baik. semoga pas diaplikasikan tidak mengecewakan hasilnya. gosend nya juga tepat waktu. Terima kasih ????",2,Happy,Happy,True,correct,True,0.5010307252856819,,low,28,175
+Tokopedia,ind,tok_01907,ancuuuurrrr bubukkkk remukkk tak berbentukkkkkkkkkkkkkkkkkkllkl,0,Anger,Anger,True,correct,True,0.4562649754226427,,low,5,175
+Tokopedia,ind,tok_03337,"powerbank nya tidak bisa berfungsi.. baterai full charge tapi sewaktu disambungkan ke handphone, handphone tidak tercharge..",1,Fear,Fear,True,correct,True,0.49739345187390843,,low,16,175
+Tokopedia,ind,tok_03757,Box tidak disegel dan masker di dlmnya tidak dibungkus plastik jadi ragu apakah maskernya higienis dan steril.,1,Fear,Fear,True,correct,True,0.413853349965694,,low,17,175
+Tokopedia,ind,tok_03792,"maaf saya kasih bintang 1. karena paketnya tidak sampai ke saya langsung. sempat nyasar ke tempat lain karena penerimanya sama dengan nama saya untungnya penerimanya langsung menghubungi saya. tapi pas saya ambil ternyata isi nya cuma 1 box sesuai foto padahal saya pesan 3 box. si penerima mengaku tidak mengambil 2 box sisanya. alamat bisa tidak sampai ke saya karena label alamatnya tidak dibungkus pakai lakban kertas bening jadinya berdebu, kena air bisa pudar kan.",1,Fear,Fear,True,correct,True,0.414028685555676,,low,75,175
+Tokopedia,ind,tok_04341,"barang bagus, pet nya tebel",2,Happy,Happy,True,correct,True,0.4942539429831115,,low,5,175
+Tokopedia,ind,tok_04609,setelah dipakai selama beberapa hari suara menjadi tidak jelas apakah produk ini ori? saya liat di sarung seruling itu bukan made in indonesia tetapi di serulingnya itu made in indonesia apa itu yamaha kw?,1,Fear,Fear,True,correct,True,0.4953216931293082,,low,34,175
+Tokopedia,ind,tok_05325,"Seller komunikatif dan koperatif, harga kompetitif,kursi sangat nyaman dipakai apalagi untuk wfh...harapan saya semoga barangnya kuat dan awet",2,Happy,Happy,True,correct,True,0.47294088547735874,,low,20,175
+Tokopedia,ind,tok_00258,"barang kagak sampe,...beneran kagak sampe. gak jelas toko nya apa aplikasinya ini kecewa",4,Sadness,Sadness,True,correct,True,0.5253368577364655,,mid,14,230
+Tokopedia,ind,tok_00328,"Barang mantap anak saya suka,dah gitu pengiriman cepat banget hari ini pesan besok dah sampe",3,Love,Love,True,correct,True,0.675339142691925,,mid,16,230
+Tokopedia,ind,tok_00343,bagus banget barang nya:),3,Love,Love,True,correct,True,0.6031736539435698,,mid,4,230
+Tokopedia,ind,tok_00707,"nipu,ini mah bukan 90 yard wkwkwk kaco",0,Anger,Anger,True,correct,True,0.6728558209143857,,mid,8,230
+Tokopedia,ind,tok_01024,"Desinfektan yg baguss seperti ulasan videonya, respon penjual baik dan cepat, pengiriman cepat.. thank you Seller ??",2,Happy,Happy,True,correct,True,0.522834391965099,,mid,16,230
+Tokopedia,ind,tok_01222,"paket sampai super cepat. barang ori dari official.shop gitu lho. baru akan digunakan hari ini. kalo ada hasilnya, aku pesan lagi.",2,Happy,Happy,True,correct,True,0.5318053458735343,,mid,22,230
+Tokopedia,ind,tok_01891,"RESCUE FROM DAMAGE BOX, ngga guna jg, nyampe rumah, boxnya penyok2",0,Anger,Anger,True,correct,True,0.5466748036611755,,mid,11,230
+Tokopedia,ind,tok_01909,payahhh.. packing asal cm plastik dustnya manaaa?,0,Anger,Anger,True,correct,True,0.6386624586710568,,mid,7,230
+Tokopedia,ind,tok_02042,"Barang cacat, sablonnya tidak rapih, sudah luntur ketika diterima",4,Sadness,Sadness,True,correct,True,0.5174454429831323,,mid,9,230
+Tokopedia,ind,tok_02576,"Bagus kokoh, enggak yang lari larian rodanya",2,Happy,Happy,True,correct,True,0.621328980046034,,mid,7,230
+Tokopedia,ind,tok_03012,"Warna sesuai, ada karet di bagian belakang spy kaos kaki tdk mudah lepas ????",2,Happy,Happy,True,correct,True,0.5115945554232546,,mid,13,230
+Tokopedia,ind,tok_03099,"real pict, pengiriman cepat, pengemasan rapi . worth it lah hrga segitu. pasti next order",3,Love,Love,True,correct,True,0.6373525200237602,,mid,14,230
+Tokopedia,ind,tok_03735,"Jujur lumayan kecewa banget dengan claim wangi mint eucalyptus, pasti yang kebayang wangi kyk minyak kayu putih gitu tapi pas datang bener2 ga ada wangi mint atau eucalyptusnya. Atau mmng aku idung ak yang salah cium. ?? yang jelas wanginya bikin eneg dan pusing bukan nyegerin kayak minuak kayu putih. terus ga dapet free pouch juga. ??",4,Sadness,Sadness,True,correct,True,0.5153614257711431,,mid,55,230
+Tokopedia,ind,tok_05035,barang yg dikirim tidak sesuai pesanan (salah warna) harap bisa lebih teliti lg dan merespon komplain dgn lebih tanggap.,1,Fear,Fear,True,correct,True,0.5734474903815466,,mid,19,230
+Tokopedia,ind,tok_05229,kesekian kalinya pesen ini produk..sangat bagus untuk membantu proses diet..dan pengiriman sangat cepat.,2,Happy,Happy,True,correct,True,0.6110899423192013,,mid,15,230

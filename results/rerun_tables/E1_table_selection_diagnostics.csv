@@ -1,0 +1,25 @@
+variant,model,runs,mean_weight_xgb,runs_with_threshold_fallback,total_threshold_fallbacks,total_constant_fits
+folds: emotions only,E5 Hybrid,10,0.10500000000000001,5,5,0
+folds: emotions only,E5 Hybrid (imbalance-aware),10,0.275,5,5,0
+folds: emotions only,E5 LR (imbalance-aware),10,0.0,8,8,0
+primary,E5 Hybrid,10,0.05500000000000001,7,7,0
+primary,E5 Hybrid (C=0.1),10,0.030000000000000006,3,3,0
+primary,E5 Hybrid (imbalance-aware),10,0.125,5,5,0
+primary,E5 Hybrid (weighted),10,0.07,8,8,0
+primary,E5 LR,10,0.0,7,7,0
+primary,E5 LR (C=0.1),10,0.0,3,3,0
+primary,E5 LR (imbalance-aware),10,0.0,7,7,0
+primary,E5 LR (weighted),10,0.0,8,8,0
+primary,E5 XGB,10,1.0,1,1,0
+primary,E5 XGB (cost-sensitive),10,1.0,4,4,0
+primary,IndoBERT Hybrid,10,0.04,10,14,0
+primary,IndoBERT LR,10,0.0,10,15,0
+primary,IndoBERT XGB,10,1.0,2,2,0
+primary,XLM-R Hybrid,10,0.025,10,14,0
+primary,XLM-R Hybrid (imbalance-aware),10,0.19,7,8,0
+primary,XLM-R LR,10,0.0,10,14,0
+primary,XLM-R LR (imbalance-aware),10,0.0,10,13,0
+primary,XLM-R XGB,10,1.0,4,4,0
+weight objective: language average,E5 Hybrid,10,0.075,6,6,0
+weight objective: language average,E5 Hybrid (imbalance-aware),10,0.11000000000000001,5,5,0
+weight objective: language average,E5 LR (imbalance-aware),10,0.0,7,7,0

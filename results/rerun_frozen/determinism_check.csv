@@ -1,0 +1,11 @@
+check,identical,max_abs_proba_diff,this_run,original,cpu
+Tokopedia E5 Hybrid (imbalance-aware): same session twice,True,0.0,,,CPU(s):                                  4 | Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+SemEval E5 Hybrid (imbalance-aware): same session twice,True,0.0,,,CPU(s):                                  4 | Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+Tokopedia E5 Hybrid: same session twice,True,0.0,,,CPU(s):                                  4 | Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+SemEval E5 Hybrid: same session twice,True,0.0,,,CPU(s):                                  4 | Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+Tokopedia E5 XGB: n_jobs=1 vs n_jobs=4,True,0.0,,,CPU(s):                                  4 | Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+Tokopedia E5 LR seed 42 vs original run (LR only),False,,0.6207756114271086,0.622023,CPU(s):                                  4 | Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+Tokopedia XLM-R LR seed 42 vs original run (LR only),True,,0.5778536562329227,0.577854,CPU(s):                                  4 | Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+Tokopedia IndoBERT LR seed 42 vs original run (LR only),True,,0.5906866357726218,0.590687,CPU(s):                                  4 | Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+Tokopedia E5 Hybrid seed 42 vs original run (with XGBoost),False,,0.6249330224313578,0.622258,CPU(s):                                  4 | Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+Tokopedia E5 Hybrid (imbalance-aware) seed 42 vs original run (with XGBoost),False,,0.634605089931417,0.621734,CPU(s):                                  4 | Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz

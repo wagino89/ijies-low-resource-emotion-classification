@@ -1,0 +1,421 @@
+dataset,variant,model,seed,weight_xgb,thresholds,alpha,constant_fits,threshold_fallbacks
+SemEval,primary,XLM-R LR,42,0.0,"[0.52, 0.15, 0.71, 0.3, 0.5, 0.17]",,0.0,2.0
+Tokopedia,primary,XLM-R LR,42,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R XGB,42,1.0,"[0.15, 0.15, 0.32, 0.48, 0.26, 0.16]",,0.0,0.0
+Tokopedia,primary,XLM-R XGB,42,1.0,,"[1.0, 1.1, 0.8, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid,42,0.05,"[0.5, 0.16, 0.68, 0.29, 0.51, 0.17]",,0.0,2.0
+Tokopedia,primary,XLM-R Hybrid,42,0.65,,"[1.0, 1.0, 0.9, 1.0, 1.0]",,
+SemEval,primary,IndoBERT LR,42,0.0,"[0.49, 0.21, 0.35, 0.29, 0.2, 0.15]",,0.0,2.0
+Tokopedia,primary,IndoBERT LR,42,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT XGB,42,1.0,"[0.15, 0.2, 0.46, 0.43, 0.24, 0.18]",,0.0,0.0
+Tokopedia,primary,IndoBERT XGB,42,1.0,,"[1.25, 1.0, 0.85, 1.0, 0.95]",,
+SemEval,primary,IndoBERT Hybrid,42,0.0,"[0.49, 0.21, 0.35, 0.29, 0.2, 0.15]",,0.0,2.0
+Tokopedia,primary,IndoBERT Hybrid,42,0.55,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR,42,0.0,"[0.2, 0.53, 0.21, 0.21, 0.2, 0.26]",,0.0,1.0
+Tokopedia,primary,E5 LR,42,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB,42,1.0,"[0.18, 0.16, 0.57, 0.49, 0.22, 0.24]",,0.0,0.0
+Tokopedia,primary,E5 XGB,42,1.0,,"[1.1, 1.0, 0.8, 1.0, 0.95]",,
+SemEval,primary,E5 Hybrid,42,0.0,"[0.2, 0.53, 0.21, 0.21, 0.2, 0.26]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid,42,0.65,,"[1.0, 1.0, 0.9, 1.1, 1.0]",,
+SemEval,primary,XLM-R Hybrid (imbalance-aware),42,0.35,"[0.52, 0.79, 0.7, 0.36, 0.55, 0.3]",,0.0,0.0
+Tokopedia,primary,XLM-R Hybrid (imbalance-aware),42,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (imbalance-aware),42,0.05,"[0.39, 0.44, 0.4, 0.25, 0.56, 0.19]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (imbalance-aware),42,0.65,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (C=0.1),42,0.0,"[0.16, 0.25, 0.85, 0.21, 0.3, 0.35]",,0.0,0.0
+Tokopedia,primary,E5 LR (C=0.1),42,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (weighted),42,0.0,"[0.36, 0.81, 0.41, 0.2, 0.22, 0.31]",,0.0,1.0
+Tokopedia,primary,E5 LR (weighted),42,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (imbalance-aware),42,0.0,"[0.4, 0.43, 0.41, 0.3, 0.56, 0.18]",,0.0,1.0
+Tokopedia,primary,E5 LR (imbalance-aware),42,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB (cost-sensitive),42,1.0,"[0.27, 0.26, 0.16, 0.42, 0.38, 0.23]",,0.0,1.0
+Tokopedia,primary,E5 XGB (cost-sensitive),42,1.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (C=0.1),42,0.1,"[0.27, 0.24, 0.78, 0.24, 0.34, 0.34]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (C=0.1),42,0.5,,"[1.0, 1.0, 0.9, 1.05, 1.0]",,
+SemEval,primary,E5 Hybrid (weighted),42,0.0,"[0.36, 0.81, 0.41, 0.2, 0.22, 0.31]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (weighted),42,0.75,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR (imbalance-aware),42,0.0,"[0.69, 0.25, 0.62, 0.32, 0.59, 0.22]",,0.0,2.0
+Tokopedia,primary,XLM-R LR (imbalance-aware),42,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR,7,0.0,"[0.19, 0.28, 0.25, 0.22, 0.37, 0.16]",,0.0,2.0
+Tokopedia,primary,XLM-R LR,7,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R XGB,7,1.0,"[0.19, 0.17, 0.23, 0.52, 0.23, 0.15]",,0.0,0.0
+Tokopedia,primary,XLM-R XGB,7,1.0,,"[1.0, 1.0, 0.8, 1.0, 0.95]",,
+SemEval,primary,XLM-R Hybrid,7,0.0,"[0.19, 0.28, 0.25, 0.22, 0.37, 0.16]",,0.0,2.0
+Tokopedia,primary,XLM-R Hybrid,7,0.55,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT LR,7,0.0,"[0.26, 0.77, 0.31, 0.18, 0.15, 0.16]",,0.0,1.0
+Tokopedia,primary,IndoBERT LR,7,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT XGB,7,1.0,"[0.15, 0.17, 0.22, 0.5, 0.24, 0.17]",,0.0,0.0
+Tokopedia,primary,IndoBERT XGB,7,1.0,,"[1.15, 1.1, 0.95, 1.0, 1.0]",,
+SemEval,primary,IndoBERT Hybrid,7,0.05,"[0.25, 0.74, 0.3, 0.18, 0.15, 0.16]",,0.0,1.0
+Tokopedia,primary,IndoBERT Hybrid,7,0.7000000000000001,,"[1.0, 1.0, 0.85, 1.0, 1.0]",,
+SemEval,primary,E5 LR,7,0.0,"[0.15, 0.63, 0.27, 0.18, 0.25, 0.2]",,0.0,1.0
+Tokopedia,primary,E5 LR,7,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB,7,1.0,"[0.16, 0.19, 0.15, 0.58, 0.22, 0.16]",,0.0,1.0
+Tokopedia,primary,E5 XGB,7,1.0,,"[1.05, 1.0, 0.8, 1.0, 0.85]",,
+SemEval,primary,E5 Hybrid,7,0.0,"[0.15, 0.63, 0.27, 0.18, 0.25, 0.2]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid,7,0.6000000000000001,,"[1.0, 1.05, 0.8, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid (imbalance-aware),7,0.0,"[0.5, 0.4, 0.34, 0.22, 0.27, 0.22]",,0.0,2.0
+Tokopedia,primary,XLM-R Hybrid (imbalance-aware),7,0.75,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (imbalance-aware),7,0.3,"[0.53, 0.24, 0.73, 0.29, 0.52, 0.24]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (imbalance-aware),7,0.6000000000000001,,"[0.95, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (C=0.1),7,0.0,"[0.35, 0.21, 0.51, 0.2, 0.26, 0.22]",,0.0,0.0
+Tokopedia,primary,E5 LR (C=0.1),7,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (weighted),7,0.0,"[0.44, 0.16, 0.32, 0.21, 0.45, 0.19]",,0.0,1.0
+Tokopedia,primary,E5 LR (weighted),7,0.0,,"[0.95, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (imbalance-aware),7,0.0,"[0.64, 0.37, 0.33, 0.19, 0.52, 0.18]",,0.0,1.0
+Tokopedia,primary,E5 LR (imbalance-aware),7,0.0,,"[0.75, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB (cost-sensitive),7,1.0,"[0.18, 0.31, 0.48, 0.38, 0.35, 0.25]",,0.0,0.0
+Tokopedia,primary,E5 XGB (cost-sensitive),7,1.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (C=0.1),7,0.0,"[0.35, 0.21, 0.51, 0.2, 0.26, 0.22]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (C=0.1),7,0.45,,"[1.0, 1.0, 0.95, 1.05, 1.0]",,
+SemEval,primary,E5 Hybrid (weighted),7,0.05,"[0.43, 0.2, 0.31, 0.24, 0.67, 0.19]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (weighted),7,0.75,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR (imbalance-aware),7,0.0,"[0.5, 0.4, 0.34, 0.22, 0.27, 0.22]",,0.0,2.0
+Tokopedia,primary,XLM-R LR (imbalance-aware),7,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR,13,0.0,"[0.19, 0.18, 0.85, 0.25, 0.36, 0.18]",,0.0,2.0
+Tokopedia,primary,XLM-R LR,13,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R XGB,13,1.0,"[0.15, 0.15, 0.85, 0.5, 0.26, 0.17]",,0.0,1.0
+Tokopedia,primary,XLM-R XGB,13,1.0,,"[1.25, 1.0, 0.9, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid,13,0.0,"[0.19, 0.18, 0.85, 0.25, 0.36, 0.18]",,0.0,2.0
+Tokopedia,primary,XLM-R Hybrid,13,0.6000000000000001,,"[1.0, 1.0, 0.9, 1.0, 1.0]",,
+SemEval,primary,IndoBERT LR,13,0.0,"[0.26, 0.67, 0.81, 0.23, 0.42, 0.15]",,0.0,1.0
+Tokopedia,primary,IndoBERT LR,13,0.0,,"[1.0, 1.1, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT XGB,13,1.0,"[0.16, 0.16, 0.24, 0.35, 0.25, 0.18]",,0.0,0.0
+Tokopedia,primary,IndoBERT XGB,13,1.0,,"[1.1, 1.0, 0.8, 1.0, 0.95]",,
+SemEval,primary,IndoBERT Hybrid,13,0.0,"[0.26, 0.67, 0.81, 0.23, 0.42, 0.15]",,0.0,1.0
+Tokopedia,primary,IndoBERT Hybrid,13,0.6000000000000001,,"[1.0, 1.0, 1.0, 1.0, 0.95]",,
+SemEval,primary,E5 LR,13,0.0,"[0.18, 0.6, 0.21, 0.19, 0.49, 0.17]",,0.0,1.0
+Tokopedia,primary,E5 LR,13,0.0,,"[1.0, 1.0, 1.0, 1.0, 0.9]",,
+SemEval,primary,E5 XGB,13,1.0,"[0.16, 0.19, 0.24, 0.52, 0.29, 0.2]",,0.0,0.0
+Tokopedia,primary,E5 XGB,13,1.0,,"[1.1, 1.0, 0.75, 1.0, 0.95]",,
+SemEval,primary,E5 Hybrid,13,0.0,"[0.18, 0.6, 0.21, 0.19, 0.49, 0.17]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid,13,0.6000000000000001,,"[1.0, 1.0, 0.95, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid (imbalance-aware),13,0.35,"[0.32, 0.64, 0.5, 0.26, 0.58, 0.29]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid (imbalance-aware),13,0.6000000000000001,,"[1.0, 1.0, 1.0, 0.95, 1.0]",,
+SemEval,primary,E5 Hybrid (imbalance-aware),13,0.15,"[0.33, 0.58, 0.27, 0.23, 0.6, 0.32]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (imbalance-aware),13,0.75,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (C=0.1),13,0.0,"[0.15, 0.5, 0.18, 0.18, 0.32, 0.2]",,0.0,1.0
+Tokopedia,primary,E5 LR (C=0.1),13,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (weighted),13,0.0,"[0.62, 0.69, 0.19, 0.2, 0.59, 0.27]",,0.0,1.0
+Tokopedia,primary,E5 LR (weighted),13,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (imbalance-aware),13,0.0,"[0.15, 0.58, 0.29, 0.22, 0.58, 0.32]",,0.0,1.0
+Tokopedia,primary,E5 LR (imbalance-aware),13,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB (cost-sensitive),13,1.0,"[0.21, 0.33, 0.2, 0.32, 0.43, 0.22]",,0.0,1.0
+Tokopedia,primary,E5 XGB (cost-sensitive),13,1.0,,"[1.0, 1.0, 0.95, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (C=0.1),13,0.0,"[0.15, 0.5, 0.18, 0.18, 0.32, 0.2]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (C=0.1),13,0.55,,"[1.0, 1.0, 0.9, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (weighted),13,0.1,"[0.58, 0.81, 0.19, 0.23, 0.56, 0.28]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (weighted),13,0.75,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR (imbalance-aware),13,0.0,"[0.23, 0.49, 0.73, 0.21, 0.47, 0.32]",,0.0,2.0
+Tokopedia,primary,XLM-R LR (imbalance-aware),13,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR,77,0.0,"[0.58, 0.42, 0.38, 0.4, 0.35, 0.18]",,0.0,1.0
+Tokopedia,primary,XLM-R LR,77,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R XGB,77,1.0,"[0.15, 0.16, 0.15, 0.5, 0.26, 0.19]",,0.0,1.0
+Tokopedia,primary,XLM-R XGB,77,1.0,,"[1.0, 1.0, 0.85, 1.0, 0.9]",,
+SemEval,primary,XLM-R Hybrid,77,0.1,"[0.53, 0.38, 0.34, 0.36, 0.34, 0.18]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid,77,0.55,,"[1.0, 1.0, 1.0, 1.1, 1.0]",,
+SemEval,primary,IndoBERT LR,77,0.0,"[0.19, 0.49, 0.58, 0.21, 0.33, 0.21]",,0.0,1.0
+Tokopedia,primary,IndoBERT LR,77,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT XGB,77,1.0,"[0.16, 0.16, 0.15, 0.5, 0.28, 0.15]",,0.0,0.0
+Tokopedia,primary,IndoBERT XGB,77,1.0,,"[1.0, 1.0, 1.0, 1.0, 0.9]",,
+SemEval,primary,IndoBERT Hybrid,77,0.0,"[0.19, 0.49, 0.58, 0.21, 0.33, 0.21]",,0.0,1.0
+Tokopedia,primary,IndoBERT Hybrid,77,0.4,,"[1.0, 1.05, 1.0, 1.0, 0.95]",,
+SemEval,primary,E5 LR,77,0.0,"[0.19, 0.27, 0.19, 0.29, 0.27, 0.16]",,0.0,1.0
+Tokopedia,primary,E5 LR,77,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB,77,1.0,"[0.15, 0.16, 0.16, 0.53, 0.23, 0.16]",,0.0,0.0
+Tokopedia,primary,E5 XGB,77,1.0,,"[1.05, 1.0, 0.85, 1.0, 0.85]",,
+SemEval,primary,E5 Hybrid,77,0.1,"[0.23, 0.31, 0.18, 0.2, 0.4, 0.16]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid,77,0.65,,"[1.0, 1.0, 0.85, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid (imbalance-aware),77,0.3,"[0.3, 0.63, 0.7, 0.27, 0.61, 0.27]",,0.0,0.0
+Tokopedia,primary,XLM-R Hybrid (imbalance-aware),77,0.55,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (imbalance-aware),77,0.05,"[0.52, 0.52, 0.42, 0.21, 0.72, 0.2]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (imbalance-aware),77,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (C=0.1),77,0.0,"[0.19, 0.2, 0.76, 0.24, 0.51, 0.15]",,0.0,0.0
+Tokopedia,primary,E5 LR (C=0.1),77,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (weighted),77,0.0,"[0.3, 0.55, 0.15, 0.24, 0.49, 0.15]",,0.0,1.0
+Tokopedia,primary,E5 LR (weighted),77,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (imbalance-aware),77,0.0,"[0.54, 0.54, 0.43, 0.23, 0.73, 0.19]",,0.0,1.0
+Tokopedia,primary,E5 LR (imbalance-aware),77,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB (cost-sensitive),77,1.0,"[0.18, 0.25, 0.23, 0.44, 0.36, 0.24]",,0.0,0.0
+Tokopedia,primary,E5 XGB (cost-sensitive),77,1.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (C=0.1),77,0.1,"[0.17, 0.18, 0.69, 0.26, 0.51, 0.16]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (C=0.1),77,0.4,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (weighted),77,0.0,"[0.3, 0.55, 0.15, 0.24, 0.49, 0.15]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (weighted),77,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR (imbalance-aware),77,0.0,"[0.31, 0.81, 0.56, 0.23, 0.65, 0.2]",,0.0,1.0
+Tokopedia,primary,XLM-R LR (imbalance-aware),77,0.0,,"[0.9, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR,101,0.0,"[0.2, 0.26, 0.23, 0.31, 0.37, 0.15]",,0.0,1.0
+Tokopedia,primary,XLM-R LR,101,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R XGB,101,1.0,"[0.15, 0.17, 0.21, 0.48, 0.23, 0.16]",,0.0,0.0
+Tokopedia,primary,XLM-R XGB,101,1.0,,"[1.15, 1.0, 0.9, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid,101,0.0,"[0.2, 0.26, 0.23, 0.31, 0.37, 0.15]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid,101,0.5,,"[1.0, 1.0, 0.6, 1.0, 1.0]",,
+SemEval,primary,IndoBERT LR,101,0.0,"[0.16, 0.2, 0.85, 0.24, 0.32, 0.16]",,0.0,2.0
+Tokopedia,primary,IndoBERT LR,101,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT XGB,101,1.0,"[0.16, 0.16, 0.15, 0.4, 0.24, 0.17]",,0.0,0.0
+Tokopedia,primary,IndoBERT XGB,101,1.0,,"[1.1, 1.0, 0.9, 1.0, 1.0]",,
+SemEval,primary,IndoBERT Hybrid,101,0.05,"[0.15, 0.2, 0.82, 0.24, 0.32, 0.15]",,0.0,2.0
+Tokopedia,primary,IndoBERT Hybrid,101,0.7000000000000001,,"[1.0, 1.05, 0.75, 1.0, 0.95]",,
+SemEval,primary,E5 LR,101,0.0,"[0.2, 0.8, 0.85, 0.17, 0.26, 0.2]",,0.0,0.0
+Tokopedia,primary,E5 LR,101,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB,101,1.0,"[0.15, 0.2, 0.15, 0.55, 0.34, 0.2]",,0.0,0.0
+Tokopedia,primary,E5 XGB,101,1.0,,"[1.15, 1.0, 0.65, 1.0, 0.9]",,
+SemEval,primary,E5 Hybrid,101,0.4,"[0.16, 0.5, 0.59, 0.33, 0.16, 0.16]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid,101,0.7000000000000001,,"[1.0, 1.0, 0.85, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid (imbalance-aware),101,0.05,"[0.54, 0.41, 0.28, 0.28, 0.57, 0.18]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid (imbalance-aware),101,0.6000000000000001,,"[0.95, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (imbalance-aware),101,0.15,"[0.49, 0.7, 0.83, 0.22, 0.43, 0.29]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (imbalance-aware),101,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (C=0.1),101,0.0,"[0.31, 0.28, 0.3, 0.3, 0.44, 0.2]",,0.0,0.0
+Tokopedia,primary,E5 LR (C=0.1),101,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (weighted),101,0.0,"[0.16, 0.38, 0.22, 0.19, 0.5, 0.31]",,0.0,1.0
+Tokopedia,primary,E5 LR (weighted),101,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (imbalance-aware),101,0.0,"[0.7, 0.81, 0.85, 0.22, 0.33, 0.31]",,0.0,0.0
+Tokopedia,primary,E5 LR (imbalance-aware),101,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB (cost-sensitive),101,1.0,"[0.23, 0.26, 0.25, 0.44, 0.5, 0.26]",,0.0,0.0
+Tokopedia,primary,E5 XGB (cost-sensitive),101,1.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (C=0.1),101,0.1,"[0.29, 0.25, 0.58, 0.32, 0.42, 0.17]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (C=0.1),101,0.7000000000000001,,"[1.0, 1.0, 0.8, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (weighted),101,0.0,"[0.16, 0.38, 0.22, 0.19, 0.5, 0.31]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (weighted),101,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR (imbalance-aware),101,0.0,"[0.54, 0.41, 0.28, 0.27, 0.6, 0.17]",,0.0,1.0
+Tokopedia,primary,XLM-R LR (imbalance-aware),101,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR,202,0.0,"[0.38, 0.16, 0.43, 0.19, 0.23, 0.15]",,0.0,2.0
+Tokopedia,primary,XLM-R LR,202,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R XGB,202,1.0,"[0.15, 0.19, 0.16, 0.5, 0.31, 0.17]",,0.0,1.0
+Tokopedia,primary,XLM-R XGB,202,1.0,,"[1.0, 1.0, 0.9, 1.0, 0.85]",,
+SemEval,primary,XLM-R Hybrid,202,0.0,"[0.38, 0.16, 0.43, 0.19, 0.23, 0.15]",,0.0,2.0
+Tokopedia,primary,XLM-R Hybrid,202,0.45,,"[1.0, 1.05, 0.9, 1.0, 1.0]",,
+SemEval,primary,IndoBERT LR,202,0.0,"[0.67, 0.3, 0.77, 0.24, 0.34, 0.15]",,0.0,2.0
+Tokopedia,primary,IndoBERT LR,202,0.0,,"[1.0, 1.0, 1.0, 1.0, 0.85]",,
+SemEval,primary,IndoBERT XGB,202,1.0,"[0.16, 0.18, 0.17, 0.41, 0.2, 0.16]",,0.0,0.0
+Tokopedia,primary,IndoBERT XGB,202,1.0,,"[1.05, 1.0, 0.95, 1.0, 0.95]",,
+SemEval,primary,IndoBERT Hybrid,202,0.1,"[0.71, 0.84, 0.69, 0.27, 0.31, 0.15]",,0.0,1.0
+Tokopedia,primary,IndoBERT Hybrid,202,0.6000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR,202,0.0,"[0.53, 0.63, 0.21, 0.18, 0.55, 0.17]",,0.0,1.0
+Tokopedia,primary,E5 LR,202,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB,202,1.0,"[0.18, 0.15, 0.44, 0.46, 0.32, 0.17]",,0.0,0.0
+Tokopedia,primary,E5 XGB,202,1.0,,"[1.1, 1.0, 0.8, 1.0, 0.9]",,
+SemEval,primary,E5 Hybrid,202,0.05,"[0.51, 0.61, 0.2, 0.21, 0.46, 0.17]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid,202,0.65,,"[1.0, 1.0, 0.8, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid (imbalance-aware),202,0.3,"[0.56, 0.61, 0.19, 0.23, 0.4, 0.19]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid (imbalance-aware),202,0.55,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (imbalance-aware),202,0.4,"[0.54, 0.51, 0.81, 0.31, 0.52, 0.28]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (imbalance-aware),202,0.65,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (C=0.1),202,0.0,"[0.49, 0.31, 0.25, 0.26, 0.42, 0.16]",,0.0,1.0
+Tokopedia,primary,E5 LR (C=0.1),202,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (weighted),202,0.0,"[0.75, 0.85, 0.18, 0.17, 0.7, 0.21]",,0.0,1.0
+Tokopedia,primary,E5 LR (weighted),202,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (imbalance-aware),202,0.0,"[0.82, 0.65, 0.21, 0.18, 0.63, 0.28]",,0.0,1.0
+Tokopedia,primary,E5 LR (imbalance-aware),202,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB (cost-sensitive),202,1.0,"[0.26, 0.31, 0.15, 0.41, 0.47, 0.26]",,0.0,1.0
+Tokopedia,primary,E5 XGB (cost-sensitive),202,1.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (C=0.1),202,0.0,"[0.49, 0.31, 0.25, 0.26, 0.42, 0.16]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (C=0.1),202,0.2,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (weighted),202,0.1,"[0.7, 0.84, 0.18, 0.17, 0.7, 0.2]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (weighted),202,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR (imbalance-aware),202,0.0,"[0.73, 0.79, 0.21, 0.21, 0.26, 0.24]",,0.0,1.0
+Tokopedia,primary,XLM-R LR (imbalance-aware),202,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR,303,0.0,"[0.63, 0.85, 0.18, 0.33, 0.4, 0.15]",,0.0,1.0
+Tokopedia,primary,XLM-R LR,303,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R XGB,303,1.0,"[0.16, 0.16, 0.2, 0.41, 0.21, 0.17]",,0.0,0.0
+Tokopedia,primary,XLM-R XGB,303,1.0,,"[1.05, 1.0, 0.75, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid,303,0.0,"[0.63, 0.85, 0.18, 0.33, 0.4, 0.15]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid,303,0.55,,"[1.0, 1.0, 0.9, 1.0, 1.0]",,
+SemEval,primary,IndoBERT LR,303,0.0,"[0.18, 0.19, 0.23, 0.34, 0.18, 0.19]",,0.0,2.0
+Tokopedia,primary,IndoBERT LR,303,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT XGB,303,1.0,"[0.17, 0.16, 0.26, 0.5, 0.27, 0.19]",,0.0,1.0
+Tokopedia,primary,IndoBERT XGB,303,1.0,,"[1.05, 1.0, 0.9, 1.0, 0.9]",,
+SemEval,primary,IndoBERT Hybrid,303,0.05,"[0.16, 0.19, 0.22, 0.36, 0.17, 0.21]",,0.0,2.0
+Tokopedia,primary,IndoBERT Hybrid,303,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR,303,0.0,"[0.31, 0.37, 0.28, 0.36, 0.23, 0.17]",,0.0,1.0
+Tokopedia,primary,E5 LR,303,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB,303,1.0,"[0.15, 0.15, 0.29, 0.53, 0.27, 0.17]",,0.0,0.0
+Tokopedia,primary,E5 XGB,303,1.0,,"[1.15, 1.0, 0.75, 1.0, 0.95]",,
+SemEval,primary,E5 Hybrid,303,0.0,"[0.31, 0.37, 0.28, 0.36, 0.23, 0.17]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid,303,0.7000000000000001,,"[1.0, 1.0, 0.85, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid (imbalance-aware),303,0.1,"[0.52, 0.78, 0.16, 0.22, 0.53, 0.32]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid (imbalance-aware),303,0.6000000000000001,,"[1.0, 1.1, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (imbalance-aware),303,0.0,"[0.38, 0.23, 0.71, 0.32, 0.72, 0.19]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (imbalance-aware),303,0.65,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (C=0.1),303,0.0,"[0.18, 0.15, 0.85, 0.46, 0.51, 0.22]",,0.0,0.0
+Tokopedia,primary,E5 LR (C=0.1),303,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (weighted),303,0.0,"[0.27, 0.21, 0.61, 0.32, 0.58, 0.24]",,0.0,1.0
+Tokopedia,primary,E5 LR (weighted),303,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (imbalance-aware),303,0.0,"[0.38, 0.23, 0.71, 0.32, 0.72, 0.19]",,0.0,1.0
+Tokopedia,primary,E5 LR (imbalance-aware),303,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB (cost-sensitive),303,1.0,"[0.3, 0.29, 0.17, 0.35, 0.48, 0.24]",,0.0,1.0
+Tokopedia,primary,E5 XGB (cost-sensitive),303,1.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (C=0.1),303,0.0,"[0.18, 0.15, 0.85, 0.46, 0.51, 0.22]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (C=0.1),303,0.6000000000000001,,"[1.05, 1.0, 0.85, 1.05, 1.0]",,
+SemEval,primary,E5 Hybrid (weighted),303,0.15,"[0.2, 0.6, 0.55, 0.18, 0.52, 0.26]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (weighted),303,0.75,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR (imbalance-aware),303,0.0,"[0.53, 0.81, 0.17, 0.23, 0.54, 0.33]",,0.0,1.0
+Tokopedia,primary,XLM-R LR (imbalance-aware),303,0.0,,"[1.0, 1.1, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR,404,0.0,"[0.37, 0.64, 0.81, 0.25, 0.21, 0.16]",,0.0,1.0
+Tokopedia,primary,XLM-R LR,404,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R XGB,404,1.0,"[0.16, 0.15, 0.85, 0.42, 0.26, 0.17]",,0.0,1.0
+Tokopedia,primary,XLM-R XGB,404,1.0,,"[1.25, 1.15, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid,404,0.0,"[0.37, 0.64, 0.81, 0.25, 0.21, 0.16]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid,404,0.65,,"[1.0, 1.0, 0.95, 1.0, 1.0]",,
+SemEval,primary,IndoBERT LR,404,0.0,"[0.26, 0.15, 0.53, 0.16, 0.2, 0.15]",,0.0,2.0
+Tokopedia,primary,IndoBERT LR,404,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT XGB,404,1.0,"[0.15, 0.15, 0.85, 0.41, 0.16, 0.16]",,0.0,1.0
+Tokopedia,primary,IndoBERT XGB,404,1.0,,"[1.0, 1.0, 0.95, 1.0, 0.95]",,
+SemEval,primary,IndoBERT Hybrid,404,0.05,"[0.25, 0.19, 0.51, 0.19, 0.19, 0.15]",,0.0,2.0
+Tokopedia,primary,IndoBERT Hybrid,404,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 0.85]",,
+SemEval,primary,E5 LR,404,0.0,"[0.32, 0.17, 0.18, 0.28, 0.25, 0.23]",,0.0,0.0
+Tokopedia,primary,E5 LR,404,0.0,,"[1.0, 1.0, 1.0, 1.0, 0.95]",,
+SemEval,primary,E5 XGB,404,1.0,"[0.15, 0.15, 0.15, 0.5, 0.28, 0.15]",,0.0,0.0
+Tokopedia,primary,E5 XGB,404,1.0,,"[1.0, 1.0, 0.75, 1.0, 0.9]",,
+SemEval,primary,E5 Hybrid,404,0.0,"[0.32, 0.17, 0.18, 0.28, 0.25, 0.23]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid,404,0.65,,"[1.0, 1.0, 1.0, 1.0, 0.9]",,
+SemEval,primary,XLM-R Hybrid (imbalance-aware),404,0.1,"[0.42, 0.81, 0.2, 0.2, 0.52, 0.31]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid (imbalance-aware),404,0.5,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (imbalance-aware),404,0.0,"[0.36, 0.48, 0.36, 0.25, 0.6, 0.36]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (imbalance-aware),404,0.65,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (C=0.1),404,0.0,"[0.2, 0.19, 0.15, 0.16, 0.42, 0.26]",,0.0,0.0
+Tokopedia,primary,E5 LR (C=0.1),404,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (weighted),404,0.0,"[0.56, 0.16, 0.25, 0.28, 0.63, 0.46]",,0.0,0.0
+Tokopedia,primary,E5 LR (weighted),404,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (imbalance-aware),404,0.0,"[0.36, 0.48, 0.36, 0.25, 0.6, 0.36]",,0.0,0.0
+Tokopedia,primary,E5 LR (imbalance-aware),404,0.0,,"[1.0, 1.05, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB (cost-sensitive),404,1.0,"[0.21, 0.26, 0.48, 0.42, 0.38, 0.23]",,0.0,0.0
+Tokopedia,primary,E5 XGB (cost-sensitive),404,1.0,,"[1.0, 1.05, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (C=0.1),404,0.0,"[0.2, 0.19, 0.15, 0.16, 0.42, 0.26]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (C=0.1),404,0.5,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (weighted),404,0.0,"[0.56, 0.16, 0.25, 0.28, 0.63, 0.46]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (weighted),404,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR (imbalance-aware),404,0.0,"[0.38, 0.85, 0.18, 0.2, 0.64, 0.3]",,0.0,1.0
+Tokopedia,primary,XLM-R LR (imbalance-aware),404,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR,505,0.0,"[0.18, 0.85, 0.17, 0.29, 0.32, 0.15]",,0.0,1.0
+Tokopedia,primary,XLM-R LR,505,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R XGB,505,1.0,"[0.15, 0.15, 0.22, 0.44, 0.21, 0.17]",,0.0,0.0
+Tokopedia,primary,XLM-R XGB,505,1.0,,"[1.15, 1.0, 0.85, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid,505,0.1,"[0.2, 0.82, 0.15, 0.36, 0.3, 0.16]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid,505,0.7000000000000001,,"[1.2, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT LR,505,0.0,"[0.52, 0.24, 0.24, 0.2, 0.17, 0.17]",,0.0,1.0
+Tokopedia,primary,IndoBERT LR,505,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT XGB,505,1.0,"[0.15, 0.15, 0.29, 0.48, 0.26, 0.17]",,0.0,0.0
+Tokopedia,primary,IndoBERT XGB,505,1.0,,"[1.0, 1.0, 0.75, 1.05, 0.8]",,
+SemEval,primary,IndoBERT Hybrid,505,0.0,"[0.52, 0.24, 0.24, 0.2, 0.17, 0.17]",,0.0,1.0
+Tokopedia,primary,IndoBERT Hybrid,505,0.5,,"[1.0, 1.0, 0.95, 1.0, 1.0]",,
+SemEval,primary,E5 LR,505,0.0,"[0.33, 0.25, 0.19, 0.27, 0.32, 0.17]",,0.0,1.0
+Tokopedia,primary,E5 LR,505,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB,505,1.0,"[0.15, 0.16, 0.2, 0.47, 0.27, 0.15]",,0.0,0.0
+Tokopedia,primary,E5 XGB,505,1.0,,"[1.0, 1.0, 0.65, 1.0, 0.9]",,
+SemEval,primary,E5 Hybrid,505,0.0,"[0.33, 0.25, 0.19, 0.27, 0.32, 0.17]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid,505,0.55,,"[1.0, 1.0, 0.85, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid (imbalance-aware),505,0.05,"[0.5, 0.28, 0.19, 0.3, 0.61, 0.17]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid (imbalance-aware),505,0.6000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (imbalance-aware),505,0.1,"[0.46, 0.58, 0.54, 0.26, 0.51, 0.26]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (imbalance-aware),505,0.6000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (C=0.1),505,0.0,"[0.19, 0.29, 0.2, 0.23, 0.32, 0.22]",,0.0,1.0
+Tokopedia,primary,E5 LR (C=0.1),505,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (weighted),505,0.0,"[0.64, 0.33, 0.37, 0.25, 0.57, 0.25]",,0.0,1.0
+Tokopedia,primary,E5 LR (weighted),505,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (imbalance-aware),505,0.0,"[0.54, 0.62, 0.56, 0.25, 0.55, 0.3]",,0.0,1.0
+Tokopedia,primary,E5 LR (imbalance-aware),505,0.0,,"[0.95, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB (cost-sensitive),505,1.0,"[0.33, 0.2, 0.39, 0.45, 0.45, 0.33]",,0.0,0.0
+Tokopedia,primary,E5 XGB (cost-sensitive),505,1.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (C=0.1),505,0.0,"[0.19, 0.29, 0.2, 0.23, 0.32, 0.22]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (C=0.1),505,0.55,,"[1.0, 1.0, 0.85, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (weighted),505,0.1,"[0.6, 0.34, 0.34, 0.28, 0.54, 0.24]",,0.0,1.0
+Tokopedia,primary,E5 Hybrid (weighted),505,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR (imbalance-aware),505,0.0,"[0.51, 0.28, 0.19, 0.26, 0.62, 0.16]",,0.0,1.0
+Tokopedia,primary,XLM-R LR (imbalance-aware),505,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR,606,0.0,"[0.23, 0.85, 0.42, 0.27, 0.23, 0.15]",,0.0,1.0
+Tokopedia,primary,XLM-R LR,606,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R XGB,606,1.0,"[0.15, 0.21, 0.28, 0.48, 0.27, 0.15]",,0.0,0.0
+Tokopedia,primary,XLM-R XGB,606,1.0,,"[1.05, 1.05, 0.95, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid,606,0.0,"[0.23, 0.85, 0.42, 0.27, 0.23, 0.15]",,0.0,1.0
+Tokopedia,primary,XLM-R Hybrid,606,0.7000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT LR,606,0.0,"[0.15, 0.82, 0.49, 0.2, 0.33, 0.17]",,0.0,1.0
+Tokopedia,primary,IndoBERT LR,606,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,IndoBERT XGB,606,1.0,"[0.15, 0.15, 0.17, 0.48, 0.19, 0.16]",,0.0,0.0
+Tokopedia,primary,IndoBERT XGB,606,1.0,,"[1.25, 1.0, 0.85, 1.1, 1.0]",,
+SemEval,primary,IndoBERT Hybrid,606,0.1,"[0.15, 0.75, 0.45, 0.17, 0.29, 0.18]",,0.0,1.0
+Tokopedia,primary,IndoBERT Hybrid,606,0.6000000000000001,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR,606,0.0,"[0.19, 0.58, 0.27, 0.28, 0.28, 0.15]",,0.0,0.0
+Tokopedia,primary,E5 LR,606,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB,606,1.0,"[0.16, 0.16, 0.21, 0.54, 0.27, 0.17]",,0.0,0.0
+Tokopedia,primary,E5 XGB,606,1.0,,"[1.15, 1.0, 0.7, 1.0, 0.9]",,
+SemEval,primary,E5 Hybrid,606,0.0,"[0.19, 0.58, 0.27, 0.28, 0.28, 0.15]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid,606,0.7000000000000001,,"[1.0, 1.0, 0.8, 1.0, 1.0]",,
+SemEval,primary,XLM-R Hybrid (imbalance-aware),606,0.3,"[0.42, 0.67, 0.76, 0.32, 0.56, 0.31]",,0.0,0.0
+Tokopedia,primary,XLM-R Hybrid (imbalance-aware),606,0.7000000000000001,,"[1.0, 1.0, 1.0, 0.85, 1.0]",,
+SemEval,primary,E5 Hybrid (imbalance-aware),606,0.05,"[0.33, 0.8, 0.53, 0.19, 0.52, 0.28]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (imbalance-aware),606,0.65,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (C=0.1),606,0.0,"[0.15, 0.66, 0.19, 0.3, 0.44, 0.16]",,0.0,0.0
+Tokopedia,primary,E5 LR (C=0.1),606,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (weighted),606,0.0,"[0.15, 0.83, 0.59, 0.19, 0.36, 0.2]",,0.0,0.0
+Tokopedia,primary,E5 LR (weighted),606,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 LR (imbalance-aware),606,0.0,"[0.19, 0.84, 0.54, 0.19, 0.52, 0.28]",,0.0,0.0
+Tokopedia,primary,E5 LR (imbalance-aware),606,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 XGB (cost-sensitive),606,1.0,"[0.24, 0.17, 0.42, 0.42, 0.36, 0.29]",,0.0,0.0
+Tokopedia,primary,E5 XGB (cost-sensitive),606,1.0,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (C=0.1),606,0.0,"[0.15, 0.66, 0.19, 0.3, 0.44, 0.16]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (C=0.1),606,0.65,,"[1.0, 1.0, 0.8, 1.0, 1.0]",,
+SemEval,primary,E5 Hybrid (weighted),606,0.2,"[0.15, 0.7, 0.5, 0.23, 0.36, 0.23]",,0.0,0.0
+Tokopedia,primary,E5 Hybrid (weighted),606,0.75,,"[1.0, 1.0, 1.0, 1.0, 1.0]",,
+SemEval,primary,XLM-R LR (imbalance-aware),606,0.0,"[0.55, 0.79, 0.84, 0.22, 0.63, 0.37]",,0.0,1.0
+Tokopedia,primary,XLM-R LR (imbalance-aware),606,0.0,,"[1.0, 1.0, 1.0, 1.0, 1.05]",,
+SemEval,folds: emotions only,E5 Hybrid (imbalance-aware),42,0.35,"[0.47, 0.7, 0.72, 0.37, 0.6, 0.27]",,0.0,0.0
+SemEval,folds: emotions only,E5 Hybrid (imbalance-aware),7,0.5,"[0.25, 0.53, 0.2, 0.32, 0.4, 0.21]",,0.0,1.0
+SemEval,folds: emotions only,E5 Hybrid (imbalance-aware),13,0.5,"[0.32, 0.54, 0.27, 0.29, 0.51, 0.18]",,0.0,1.0
+SemEval,folds: emotions only,E5 Hybrid (imbalance-aware),77,0.0,"[0.64, 0.42, 0.4, 0.26, 0.76, 0.29]",,0.0,1.0
+SemEval,folds: emotions only,E5 Hybrid (imbalance-aware),101,0.25,"[0.44, 0.67, 0.54, 0.25, 0.43, 0.27]",,0.0,0.0
+SemEval,folds: emotions only,E5 Hybrid (imbalance-aware),202,0.4,"[0.59, 0.58, 0.74, 0.27, 0.5, 0.27]",,0.0,0.0
+SemEval,folds: emotions only,E5 Hybrid (imbalance-aware),303,0.5,"[0.3, 0.52, 0.61, 0.29, 0.45, 0.27]",,0.0,0.0
+SemEval,folds: emotions only,E5 Hybrid (imbalance-aware),404,0.2,"[0.53, 0.61, 0.78, 0.21, 0.52, 0.15]",,0.0,0.0
+SemEval,folds: emotions only,E5 Hybrid (imbalance-aware),505,0.05,"[0.5, 0.34, 0.17, 0.18, 0.42, 0.47]",,0.0,1.0
+SemEval,folds: emotions only,E5 Hybrid (imbalance-aware),606,0.0,"[0.24, 0.85, 0.6, 0.39, 0.61, 0.17]",,0.0,1.0
+SemEval,folds: emotions only,E5 Hybrid,42,0.05,"[0.26, 0.85, 0.18, 0.26, 0.58, 0.19]",,0.0,1.0
+SemEval,folds: emotions only,E5 Hybrid,7,0.05,"[0.34, 0.52, 0.85, 0.22, 0.63, 0.23]",,0.0,0.0
+SemEval,folds: emotions only,E5 Hybrid,13,0.15,"[0.27, 0.75, 0.54, 0.16, 0.34, 0.16]",,0.0,1.0
+SemEval,folds: emotions only,E5 Hybrid,77,0.25,"[0.15, 0.21, 0.76, 0.2, 0.16, 0.16]",,0.0,0.0
+SemEval,folds: emotions only,E5 Hybrid,101,0.05,"[0.28, 0.39, 0.26, 0.32, 0.17, 0.16]",,0.0,0.0
+SemEval,folds: emotions only,E5 Hybrid,202,0.2,"[0.25, 0.64, 0.65, 0.34, 0.37, 0.18]",,0.0,0.0
+SemEval,folds: emotions only,E5 Hybrid,303,0.3,"[0.35, 0.67, 0.68, 0.24, 0.28, 0.17]",,0.0,0.0
+SemEval,folds: emotions only,E5 Hybrid,404,0.0,"[0.28, 0.6, 0.15, 0.28, 0.85, 0.23]",,0.0,1.0
+SemEval,folds: emotions only,E5 Hybrid,505,0.0,"[0.73, 0.53, 0.24, 0.21, 0.19, 0.21]",,0.0,1.0
+SemEval,folds: emotions only,E5 Hybrid,606,0.0,"[0.15, 0.36, 0.15, 0.33, 0.19, 0.28]",,0.0,1.0
+SemEval,folds: emotions only,E5 LR (imbalance-aware),42,0.0,"[0.69, 0.66, 0.31, 0.32, 0.75, 0.21]",,0.0,1.0
+SemEval,folds: emotions only,E5 LR (imbalance-aware),7,0.0,"[0.65, 0.68, 0.28, 0.26, 0.31, 0.16]",,0.0,1.0
+SemEval,folds: emotions only,E5 LR (imbalance-aware),13,0.0,"[0.45, 0.85, 0.33, 0.18, 0.68, 0.17]",,0.0,1.0
+SemEval,folds: emotions only,E5 LR (imbalance-aware),77,0.0,"[0.64, 0.42, 0.4, 0.26, 0.76, 0.29]",,0.0,1.0
+SemEval,folds: emotions only,E5 LR (imbalance-aware),101,0.0,"[0.58, 0.7, 0.68, 0.31, 0.48, 0.26]",,0.0,0.0
+SemEval,folds: emotions only,E5 LR (imbalance-aware),202,0.0,"[0.79, 0.68, 0.81, 0.21, 0.47, 0.31]",,0.0,0.0
+SemEval,folds: emotions only,E5 LR (imbalance-aware),303,0.0,"[0.76, 0.76, 0.31, 0.23, 0.76, 0.37]",,0.0,1.0
+SemEval,folds: emotions only,E5 LR (imbalance-aware),404,0.0,"[0.46, 0.67, 0.36, 0.2, 0.72, 0.24]",,0.0,1.0
+SemEval,folds: emotions only,E5 LR (imbalance-aware),505,0.0,"[0.52, 0.44, 0.18, 0.16, 0.37, 0.47]",,0.0,1.0
+SemEval,folds: emotions only,E5 LR (imbalance-aware),606,0.0,"[0.24, 0.85, 0.6, 0.39, 0.61, 0.17]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid (imbalance-aware),42,0.0,"[0.4, 0.43, 0.41, 0.3, 0.56, 0.18]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid (imbalance-aware),7,0.15,"[0.39, 0.33, 0.79, 0.24, 0.49, 0.24]",,0.0,0.0
+SemEval,weight objective: language average,E5 Hybrid (imbalance-aware),13,0.05,"[0.57, 0.61, 0.29, 0.2, 0.63, 0.33]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid (imbalance-aware),77,0.1,"[0.5, 0.48, 0.41, 0.17, 0.72, 0.2]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid (imbalance-aware),101,0.25,"[0.45, 0.6, 0.69, 0.24, 0.44, 0.29]",,0.0,0.0
+SemEval,weight objective: language average,E5 Hybrid (imbalance-aware),202,0.4,"[0.54, 0.51, 0.81, 0.31, 0.52, 0.28]",,0.0,0.0
+SemEval,weight objective: language average,E5 Hybrid (imbalance-aware),303,0.0,"[0.38, 0.23, 0.71, 0.32, 0.72, 0.19]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid (imbalance-aware),404,0.0,"[0.36, 0.48, 0.36, 0.25, 0.6, 0.36]",,0.0,0.0
+SemEval,weight objective: language average,E5 Hybrid (imbalance-aware),505,0.1,"[0.46, 0.58, 0.54, 0.26, 0.51, 0.26]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid (imbalance-aware),606,0.05,"[0.33, 0.8, 0.53, 0.19, 0.52, 0.28]",,0.0,0.0
+SemEval,weight objective: language average,E5 Hybrid,42,0.0,"[0.2, 0.53, 0.21, 0.21, 0.2, 0.26]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid,7,0.0,"[0.15, 0.63, 0.27, 0.18, 0.25, 0.2]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid,13,0.0,"[0.18, 0.6, 0.21, 0.19, 0.49, 0.17]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid,77,0.05,"[0.18, 0.24, 0.19, 0.19, 0.28, 0.16]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid,101,0.4,"[0.16, 0.5, 0.59, 0.33, 0.16, 0.16]",,0.0,0.0
+SemEval,weight objective: language average,E5 Hybrid,202,0.2,"[0.4, 0.27, 0.85, 0.26, 0.49, 0.15]",,0.0,0.0
+SemEval,weight objective: language average,E5 Hybrid,303,0.05,"[0.34, 0.36, 0.27, 0.2, 0.23, 0.18]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid,404,0.05,"[0.31, 0.17, 0.17, 0.22, 0.23, 0.24]",,0.0,0.0
+SemEval,weight objective: language average,E5 Hybrid,505,0.0,"[0.33, 0.25, 0.19, 0.27, 0.32, 0.17]",,0.0,1.0
+SemEval,weight objective: language average,E5 Hybrid,606,0.0,"[0.19, 0.58, 0.27, 0.28, 0.28, 0.15]",,0.0,0.0
+SemEval,weight objective: language average,E5 LR (imbalance-aware),42,0.0,"[0.4, 0.43, 0.41, 0.3, 0.56, 0.18]",,0.0,1.0
+SemEval,weight objective: language average,E5 LR (imbalance-aware),7,0.0,"[0.64, 0.37, 0.33, 0.19, 0.52, 0.18]",,0.0,1.0
+SemEval,weight objective: language average,E5 LR (imbalance-aware),13,0.0,"[0.15, 0.58, 0.29, 0.22, 0.58, 0.32]",,0.0,1.0
+SemEval,weight objective: language average,E5 LR (imbalance-aware),77,0.0,"[0.54, 0.54, 0.43, 0.23, 0.73, 0.19]",,0.0,1.0
+SemEval,weight objective: language average,E5 LR (imbalance-aware),101,0.0,"[0.7, 0.81, 0.85, 0.22, 0.33, 0.31]",,0.0,0.0
+SemEval,weight objective: language average,E5 LR (imbalance-aware),202,0.0,"[0.82, 0.65, 0.21, 0.18, 0.63, 0.28]",,0.0,1.0
+SemEval,weight objective: language average,E5 LR (imbalance-aware),303,0.0,"[0.38, 0.23, 0.71, 0.32, 0.72, 0.19]",,0.0,1.0
+SemEval,weight objective: language average,E5 LR (imbalance-aware),404,0.0,"[0.36, 0.48, 0.36, 0.25, 0.6, 0.36]",,0.0,0.0
+SemEval,weight objective: language average,E5 LR (imbalance-aware),505,0.0,"[0.54, 0.62, 0.56, 0.25, 0.55, 0.3]",,0.0,1.0
+SemEval,weight objective: language average,E5 LR (imbalance-aware),606,0.0,"[0.19, 0.84, 0.54, 0.19, 0.52, 0.28]",,0.0,0.0

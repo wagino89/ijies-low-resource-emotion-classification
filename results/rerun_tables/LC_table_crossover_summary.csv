@@ -1,0 +1,17 @@
+regime,frozen_model,comparator,test,frozen_significantly_better_at,ft_significantly_better_at,crossover_between
+A: label-matched,E5 Hybrid (imbalance-aware),FT (tuned),p_holm,-,"750,1000",none and 750
+A: label-matched,E5 Hybrid (imbalance-aware),FT (tuned),p_holm_conservative,-,1000,none and 1000
+A: label-matched,E5 LR (imbalance-aware),FT (tuned),p_holm,-,"500,750,1000",none and 500
+A: label-matched,E5 LR (imbalance-aware),FT (tuned),p_holm_conservative,-,1000,none and 1000
+B: selection-matched,E5 Hybrid (imbalance-aware),FT (tuned),p_holm,-,"250,500,750,1000,1500,2500,3510",none and 250
+B: selection-matched,E5 Hybrid (imbalance-aware),FT (tuned),p_holm_conservative,-,"1500,2500,3510",none and 1500
+B: selection-matched,E5 LR (imbalance-aware),FT (tuned),p_holm,-,"250,500,750,1000,1500,2500,3510",none and 250
+B: selection-matched,E5 LR (imbalance-aware),FT (tuned),p_holm_conservative,-,"1500,2500,3510",none and 1500
+B: selection-matched,E5 Hybrid (imbalance-aware),LoRA (tuned),p_holm,-,"100,250,500,750,1000,1500,2500,3510",none and 100
+B: selection-matched,E5 Hybrid (imbalance-aware),LoRA (tuned),p_holm_conservative,-,"1500,2500,3510",none and 1500
+B: selection-matched,E5 LR (imbalance-aware),LoRA (tuned),p_holm,-,"500,750,1000,1500,2500,3510",none and 500
+B: selection-matched,E5 LR (imbalance-aware),LoRA (tuned),p_holm_conservative,-,"500,1000,1500,2500,3510",none and 500
+C: frozen fits on n + validation (supplementary),E5 Hybrid (imbalance-aware),FT (tuned),p_holm,100,"750,1000,1500,2500,3510",100 and 750
+C: frozen fits on n + validation (supplementary),E5 Hybrid (imbalance-aware),FT (tuned),p_holm_conservative,-,"2500,3510",none and 2500
+C: frozen fits on n + validation (supplementary),E5 LR (imbalance-aware),FT (tuned),p_holm,100,"500,750,1000,1500,2500,3510",100 and 500
+C: frozen fits on n + validation (supplementary),E5 LR (imbalance-aware),FT (tuned),p_holm_conservative,-,"750,1000,1500,2500,3510",none and 750

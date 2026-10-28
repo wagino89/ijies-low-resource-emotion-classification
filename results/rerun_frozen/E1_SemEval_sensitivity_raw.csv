@@ -1,0 +1,301 @@
+model,seed,lang,n_test,weight_xgb,macro_f1,constant_fits,threshold_fallbacks,variant
+E5 Hybrid (imbalance-aware),42,sun,226,0.35,0.4440288098399653,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),42,jav,31,0.35,0.4075901328273244,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),42,ind,33,0.35,0.4143434343434343,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),42,pooled,290,0.35,0.4447671710737189,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),42,average,290,0.35,0.4219874590035746,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),7,sun,226,0.5,0.4334925882468995,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),7,jav,31,0.5,0.4216809116809116,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),7,ind,32,0.5,0.4046338965693805,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),7,pooled,289,0.5,0.4346504336103336,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),7,average,289,0.5,0.4199357988323972,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),13,sun,226,0.5,0.4483511249972184,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),13,jav,31,0.5,0.5597953216374268,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),13,ind,29,0.5,0.4084380760851349,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),13,pooled,286,0.5,0.4628312305934414,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),13,average,286,0.5,0.4721948409065934,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),77,sun,226,0.0,0.3830968252020884,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),77,jav,31,0.0,0.3350294418842806,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),77,ind,32,0.0,0.5374514009382431,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),77,pooled,289,0.0,0.4008219947291051,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),77,average,289,0.0,0.4185258893415373,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),101,sun,226,0.25,0.3959601259690313,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),101,jav,31,0.25,0.452813811348294,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),101,ind,32,0.25,0.3849394094555385,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),101,pooled,289,0.25,0.4145710593921961,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),101,average,289,0.25,0.4112377822576212,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),202,sun,226,0.4,0.4251558194787799,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),202,jav,31,0.4,0.4481297674846061,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),202,ind,32,0.4,0.4199089199089199,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),202,pooled,289,0.4,0.4372170556343784,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),202,average,289,0.4,0.4310648356241019,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),303,sun,226,0.5,0.4005344242263918,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),303,jav,32,0.5,0.3476297726297725,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),303,ind,32,0.5,0.3538359788359788,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),303,pooled,290,0.5,0.3980695556929957,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),303,average,290,0.5,0.367333391897381,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),404,sun,226,0.2,0.4336452597473301,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),404,jav,31,0.2,0.3995929339477726,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),404,ind,32,0.2,0.4031324427876152,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),404,pooled,289,0.2,0.4357892962570666,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),404,average,289,0.2,0.4121235454942393,0,0,folds: emotions only
+E5 Hybrid (imbalance-aware),505,sun,226,0.05,0.3893756726481709,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),505,jav,31,0.05,0.4615763321645674,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),505,ind,32,0.05,0.3738820912733955,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),505,pooled,289,0.05,0.4059191018764117,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),505,average,289,0.05,0.4082780320287113,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),606,sun,226,0.0,0.4332783695538159,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),606,jav,31,0.0,0.4316586921850079,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),606,ind,32,0.0,0.3641986668302457,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),606,pooled,289,0.0,0.4342480840594102,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),606,average,289,0.0,0.4097119095230231,0,1,folds: emotions only
+E5 Hybrid,42,sun,226,0.05,0.438342946646114,0,1,folds: emotions only
+E5 Hybrid,42,jav,31,0.05,0.4666760935143288,0,1,folds: emotions only
+E5 Hybrid,42,ind,33,0.05,0.3616841905844463,0,1,folds: emotions only
+E5 Hybrid,42,pooled,290,0.05,0.4444514738620131,0,1,folds: emotions only
+E5 Hybrid,42,average,290,0.05,0.4222344102482964,0,1,folds: emotions only
+E5 Hybrid,7,sun,226,0.05,0.4087042587042586,0,0,folds: emotions only
+E5 Hybrid,7,jav,31,0.05,0.3486559704103564,0,0,folds: emotions only
+E5 Hybrid,7,ind,32,0.05,0.3009896536212326,0,0,folds: emotions only
+E5 Hybrid,7,pooled,289,0.05,0.393782724252336,0,0,folds: emotions only
+E5 Hybrid,7,average,289,0.05,0.3527832942452826,0,0,folds: emotions only
+E5 Hybrid,13,sun,226,0.15,0.4024100577974048,0,1,folds: emotions only
+E5 Hybrid,13,jav,31,0.15,0.4186489980607628,0,1,folds: emotions only
+E5 Hybrid,13,ind,29,0.15,0.4612446486783708,0,1,folds: emotions only
+E5 Hybrid,13,pooled,286,0.15,0.4179227984249714,0,1,folds: emotions only
+E5 Hybrid,13,average,286,0.15,0.4274345681788461,0,1,folds: emotions only
+E5 Hybrid,77,sun,226,0.25,0.3948147933110339,0,0,folds: emotions only
+E5 Hybrid,77,jav,31,0.25,0.3324165298303229,0,0,folds: emotions only
+E5 Hybrid,77,ind,32,0.25,0.4447229184071289,0,0,folds: emotions only
+E5 Hybrid,77,pooled,289,0.25,0.3979788931908953,0,0,folds: emotions only
+E5 Hybrid,77,average,289,0.25,0.3906514138494952,0,0,folds: emotions only
+E5 Hybrid,101,sun,226,0.05,0.3818673192674155,0,0,folds: emotions only
+E5 Hybrid,101,jav,31,0.05,0.4168369874891613,0,0,folds: emotions only
+E5 Hybrid,101,ind,32,0.05,0.4252012882447665,0,0,folds: emotions only
+E5 Hybrid,101,pooled,289,0.05,0.4027804619151751,0,0,folds: emotions only
+E5 Hybrid,101,average,289,0.05,0.4079685316671144,0,0,folds: emotions only
+E5 Hybrid,202,sun,226,0.2,0.3746663854984946,0,0,folds: emotions only
+E5 Hybrid,202,jav,31,0.2,0.4797421216776055,0,0,folds: emotions only
+E5 Hybrid,202,ind,32,0.2,0.4925029868578256,0,0,folds: emotions only
+E5 Hybrid,202,pooled,289,0.2,0.4280486054459756,0,0,folds: emotions only
+E5 Hybrid,202,average,289,0.2,0.4489704980113085,0,0,folds: emotions only
+E5 Hybrid,303,sun,226,0.3,0.3905751681863978,0,0,folds: emotions only
+E5 Hybrid,303,jav,32,0.3,0.3645833333333333,0,0,folds: emotions only
+E5 Hybrid,303,ind,32,0.3,0.3224313599313599,0,0,folds: emotions only
+E5 Hybrid,303,pooled,290,0.3,0.3931701202689934,0,0,folds: emotions only
+E5 Hybrid,303,average,290,0.3,0.359196620483697,0,0,folds: emotions only
+E5 Hybrid,404,sun,226,0.0,0.3911728775944462,0,1,folds: emotions only
+E5 Hybrid,404,jav,31,0.0,0.272039072039072,0,1,folds: emotions only
+E5 Hybrid,404,ind,32,0.0,0.3721676221676221,0,1,folds: emotions only
+E5 Hybrid,404,pooled,289,0.0,0.3828559170157006,0,1,folds: emotions only
+E5 Hybrid,404,average,289,0.0,0.3451265239337135,0,1,folds: emotions only
+E5 Hybrid,505,sun,226,0.0,0.3696541140682676,0,1,folds: emotions only
+E5 Hybrid,505,jav,31,0.0,0.4839617898441428,0,1,folds: emotions only
+E5 Hybrid,505,ind,32,0.0,0.3333263333263333,0,1,folds: emotions only
+E5 Hybrid,505,pooled,289,0.0,0.3931384321509327,0,1,folds: emotions only
+E5 Hybrid,505,average,289,0.0,0.3956474124129146,0,1,folds: emotions only
+E5 Hybrid,606,sun,226,0.0,0.4068274318274318,0,1,folds: emotions only
+E5 Hybrid,606,jav,31,0.0,0.4147431963523917,0,1,folds: emotions only
+E5 Hybrid,606,ind,32,0.0,0.3746966229803758,0,1,folds: emotions only
+E5 Hybrid,606,pooled,289,0.0,0.4179514213370475,0,1,folds: emotions only
+E5 Hybrid,606,average,289,0.0,0.3987557503867331,0,1,folds: emotions only
+E5 LR (imbalance-aware),42,sun,226,0.0,0.4601029031193996,0,1,folds: emotions only
+E5 LR (imbalance-aware),42,jav,31,0.0,0.4898026084608527,0,1,folds: emotions only
+E5 LR (imbalance-aware),42,ind,33,0.0,0.4185281385281385,0,1,folds: emotions only
+E5 LR (imbalance-aware),42,pooled,290,0.0,0.4685950418106202,0,1,folds: emotions only
+E5 LR (imbalance-aware),42,average,290,0.0,0.4561445500361303,0,1,folds: emotions only
+E5 LR (imbalance-aware),7,sun,226,0.0,0.4337180349490768,0,1,folds: emotions only
+E5 LR (imbalance-aware),7,jav,31,0.0,0.4372177237966712,0,1,folds: emotions only
+E5 LR (imbalance-aware),7,ind,32,0.0,0.3877377377377377,0,1,folds: emotions only
+E5 LR (imbalance-aware),7,pooled,289,0.0,0.4368494767054251,0,1,folds: emotions only
+E5 LR (imbalance-aware),7,average,289,0.0,0.4195578321611619,0,1,folds: emotions only
+E5 LR (imbalance-aware),13,sun,226,0.0,0.4531484305382052,0,1,folds: emotions only
+E5 LR (imbalance-aware),13,jav,31,0.0,0.5437937937937938,0,1,folds: emotions only
+E5 LR (imbalance-aware),13,ind,29,0.0,0.4127075351213282,0,1,folds: emotions only
+E5 LR (imbalance-aware),13,pooled,286,0.0,0.4644533663023451,0,1,folds: emotions only
+E5 LR (imbalance-aware),13,average,286,0.0,0.469883253151109,0,1,folds: emotions only
+E5 LR (imbalance-aware),77,sun,226,0.0,0.3830968252020884,0,1,folds: emotions only
+E5 LR (imbalance-aware),77,jav,31,0.0,0.3350294418842806,0,1,folds: emotions only
+E5 LR (imbalance-aware),77,ind,32,0.0,0.5374514009382431,0,1,folds: emotions only
+E5 LR (imbalance-aware),77,pooled,289,0.0,0.4008219947291051,0,1,folds: emotions only
+E5 LR (imbalance-aware),77,average,289,0.0,0.4185258893415373,0,1,folds: emotions only
+E5 LR (imbalance-aware),101,sun,226,0.0,0.3738527480462963,0,0,folds: emotions only
+E5 LR (imbalance-aware),101,jav,31,0.0,0.428479262672811,0,0,folds: emotions only
+E5 LR (imbalance-aware),101,ind,32,0.0,0.4036904812500885,0,0,folds: emotions only
+E5 LR (imbalance-aware),101,pooled,289,0.0,0.4005856969535554,0,0,folds: emotions only
+E5 LR (imbalance-aware),101,average,289,0.0,0.4020074973230653,0,0,folds: emotions only
+E5 LR (imbalance-aware),202,sun,226,0.0,0.4061894275956724,0,0,folds: emotions only
+E5 LR (imbalance-aware),202,jav,31,0.0,0.4977796397151235,0,0,folds: emotions only
+E5 LR (imbalance-aware),202,ind,32,0.0,0.4541612200435729,0,0,folds: emotions only
+E5 LR (imbalance-aware),202,pooled,289,0.0,0.442185278306626,0,0,folds: emotions only
+E5 LR (imbalance-aware),202,average,289,0.0,0.4527100957847896,0,0,folds: emotions only
+E5 LR (imbalance-aware),303,sun,226,0.0,0.4371382736815874,0,1,folds: emotions only
+E5 LR (imbalance-aware),303,jav,32,0.0,0.3483218422533304,0,1,folds: emotions only
+E5 LR (imbalance-aware),303,ind,32,0.0,0.4275563607085346,0,1,folds: emotions only
+E5 LR (imbalance-aware),303,pooled,290,0.0,0.4335540596733567,0,1,folds: emotions only
+E5 LR (imbalance-aware),303,average,290,0.0,0.4043388255478175,0,1,folds: emotions only
+E5 LR (imbalance-aware),404,sun,226,0.0,0.4328391835097,0,1,folds: emotions only
+E5 LR (imbalance-aware),404,jav,31,0.0,0.429488181643354,0,1,folds: emotions only
+E5 LR (imbalance-aware),404,ind,32,0.0,0.3905959530959531,0,1,folds: emotions only
+E5 LR (imbalance-aware),404,pooled,289,0.0,0.435259551201239,0,1,folds: emotions only
+E5 LR (imbalance-aware),404,average,289,0.0,0.4176411060830023,0,1,folds: emotions only
+E5 LR (imbalance-aware),505,sun,226,0.0,0.3870725759567084,0,1,folds: emotions only
+E5 LR (imbalance-aware),505,jav,31,0.0,0.4634078339960693,0,1,folds: emotions only
+E5 LR (imbalance-aware),505,ind,32,0.0,0.3826022947304411,0,1,folds: emotions only
+E5 LR (imbalance-aware),505,pooled,289,0.0,0.4056340568915174,0,1,folds: emotions only
+E5 LR (imbalance-aware),505,average,289,0.0,0.4110275682277395,0,1,folds: emotions only
+E5 LR (imbalance-aware),606,sun,226,0.0,0.4332783695538159,0,1,folds: emotions only
+E5 LR (imbalance-aware),606,jav,31,0.0,0.4316586921850079,0,1,folds: emotions only
+E5 LR (imbalance-aware),606,ind,32,0.0,0.3641986668302457,0,1,folds: emotions only
+E5 LR (imbalance-aware),606,pooled,289,0.0,0.4342480840594102,0,1,folds: emotions only
+E5 LR (imbalance-aware),606,average,289,0.0,0.4097119095230231,0,1,folds: emotions only
+E5 Hybrid (imbalance-aware),42,sun,226,0.0,0.4531476110339907,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),42,jav,31,0.0,0.4927675371223758,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),42,ind,33,0.0,0.4042770324504071,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),42,pooled,290,0.0,0.4632851022816104,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),42,average,290,0.0,0.4500640602022578,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),7,sun,226,0.15,0.4281184764527037,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),7,jav,31,0.15,0.3854247604247605,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),7,ind,32,0.15,0.4382057882057882,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),7,pooled,289,0.15,0.4326903112043777,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),7,average,289,0.15,0.4172496750277508,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),13,sun,226,0.05,0.438954988118177,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),13,jav,31,0.05,0.5295201605546432,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),13,ind,29,0.05,0.4486143486143486,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),13,pooled,286,0.05,0.4559248845700254,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),13,average,286,0.05,0.4723631657623896,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),77,sun,226,0.1,0.3853499255518638,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),77,jav,31,0.1,0.323000198000198,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),77,ind,32,0.1,0.5310908589396556,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),77,pooled,289,0.1,0.4000610392005663,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),77,average,289,0.1,0.4131469941639058,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),101,sun,226,0.25,0.3801203747224742,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),101,jav,31,0.25,0.4574434409779237,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),101,ind,32,0.25,0.4061334544093165,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),101,pooled,289,0.25,0.4108983855316163,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),101,average,289,0.25,0.4145657567032381,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),202,sun,226,0.4,0.4230285590442185,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),202,jav,31,0.4,0.4466275659824046,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),202,ind,32,0.4,0.4199089199089199,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),202,pooled,289,0.4,0.4365508315740746,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),202,average,289,0.4,0.4298550149785143,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),303,sun,226,0.0,0.4254604556650506,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),303,jav,32,0.0,0.380731922398589,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),303,ind,32,0.0,0.3052187249168673,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),303,pooled,290,0.0,0.4142032614699255,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),303,average,290,0.0,0.3704703676601689,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),404,sun,226,0.0,0.4150783558878241,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),404,jav,31,0.0,0.4052324973876697,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),404,ind,32,0.0,0.4103925628222304,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),404,pooled,289,0.0,0.4232030595305654,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),404,average,289,0.0,0.4102344720325748,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),505,sun,226,0.1,0.386328941520224,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),505,jav,31,0.1,0.4387293461596868,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),505,ind,32,0.1,0.4168701668701668,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),505,pooled,289,0.1,0.4033212861235226,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),505,average,289,0.1,0.4139761515166926,0,1,weight objective: language average
+E5 Hybrid (imbalance-aware),606,sun,226,0.05,0.4333839362723173,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),606,jav,31,0.05,0.4225108225108225,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),606,ind,32,0.05,0.3850683785601725,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),606,pooled,289,0.05,0.4351715228358908,0,0,weight objective: language average
+E5 Hybrid (imbalance-aware),606,average,289,0.05,0.4136543791144374,0,0,weight objective: language average
+E5 Hybrid,42,sun,226,0.0,0.4416904421844939,0,1,weight objective: language average
+E5 Hybrid,42,jav,31,0.0,0.4115560365560365,0,1,weight objective: language average
+E5 Hybrid,42,ind,33,0.0,0.3580230428056515,0,1,weight objective: language average
+E5 Hybrid,42,pooled,290,0.0,0.4419268481426246,0,1,weight objective: language average
+E5 Hybrid,42,average,290,0.0,0.4037565071820606,0,1,weight objective: language average
+E5 Hybrid,7,sun,226,0.0,0.4237147178924037,0,1,weight objective: language average
+E5 Hybrid,7,jav,31,0.0,0.3953001277139208,0,1,weight objective: language average
+E5 Hybrid,7,ind,32,0.0,0.3419153945469735,0,1,weight objective: language average
+E5 Hybrid,7,pooled,289,0.0,0.4189433258443915,0,1,weight objective: language average
+E5 Hybrid,7,average,289,0.0,0.386976746717766,0,1,weight objective: language average
+E5 Hybrid,13,sun,226,0.0,0.4152268571759254,0,1,weight objective: language average
+E5 Hybrid,13,jav,31,0.0,0.4151604973973395,0,1,weight objective: language average
+E5 Hybrid,13,ind,29,0.0,0.4482171612606395,0,1,weight objective: language average
+E5 Hybrid,13,pooled,286,0.0,0.4254103694276392,0,1,weight objective: language average
+E5 Hybrid,13,average,286,0.0,0.4262015052779682,0,1,weight objective: language average
+E5 Hybrid,77,sun,226,0.05,0.3815248883486912,0,1,weight objective: language average
+E5 Hybrid,77,jav,31,0.05,0.2829244829244829,0,1,weight objective: language average
+E5 Hybrid,77,ind,32,0.05,0.5424579124579124,0,1,weight objective: language average
+E5 Hybrid,77,pooled,289,0.05,0.3916761940247037,0,1,weight objective: language average
+E5 Hybrid,77,average,289,0.05,0.4023024279103622,0,1,weight objective: language average
+E5 Hybrid,101,sun,226,0.4,0.3804656879779335,0,0,weight objective: language average
+E5 Hybrid,101,jav,31,0.4,0.4683937925873409,0,0,weight objective: language average
+E5 Hybrid,101,ind,32,0.4,0.4152346678662468,0,0,weight objective: language average
+E5 Hybrid,101,pooled,289,0.4,0.4166326013179144,0,0,weight objective: language average
+E5 Hybrid,101,average,289,0.4,0.4213647161438404,0,0,weight objective: language average
+E5 Hybrid,202,sun,226,0.2,0.3843946593946594,0,0,weight objective: language average
+E5 Hybrid,202,jav,31,0.2,0.4302630240130239,0,0,weight objective: language average
+E5 Hybrid,202,ind,32,0.2,0.4057395905221992,0,0,weight objective: language average
+E5 Hybrid,202,pooled,289,0.2,0.4068289657817982,0,0,weight objective: language average
+E5 Hybrid,202,average,289,0.2,0.4067990913099608,0,0,weight objective: language average
+E5 Hybrid,303,sun,226,0.05,0.4065450040551239,0,1,weight objective: language average
+E5 Hybrid,303,jav,32,0.05,0.3398358585858586,0,1,weight objective: language average
+E5 Hybrid,303,ind,32,0.05,0.3149832524832525,0,1,weight objective: language average
+E5 Hybrid,303,pooled,290,0.05,0.3999965426440656,0,1,weight objective: language average
+E5 Hybrid,303,average,290,0.05,0.353788038374745,0,1,weight objective: language average
+E5 Hybrid,404,sun,226,0.05,0.4037493730645618,0,0,weight objective: language average
+E5 Hybrid,404,jav,31,0.05,0.3172839506172839,0,0,weight objective: language average
+E5 Hybrid,404,ind,32,0.05,0.4074452100767891,0,0,weight objective: language average
+E5 Hybrid,404,pooled,289,0.05,0.4026706635510472,0,0,weight objective: language average
+E5 Hybrid,404,average,289,0.05,0.3761595112528783,0,0,weight objective: language average
+E5 Hybrid,505,sun,226,0.0,0.3776557167093306,0,1,weight objective: language average
+E5 Hybrid,505,jav,31,0.0,0.4873015873015872,0,1,weight objective: language average
+E5 Hybrid,505,ind,32,0.0,0.3383768383768384,0,1,weight objective: language average
+E5 Hybrid,505,pooled,289,0.0,0.3990319951491152,0,1,weight objective: language average
+E5 Hybrid,505,average,289,0.0,0.4011113807959187,0,1,weight objective: language average
+E5 Hybrid,606,sun,226,0.0,0.4072129499187691,0,0,weight objective: language average
+E5 Hybrid,606,jav,31,0.0,0.4340129732286595,0,0,weight objective: language average
+E5 Hybrid,606,ind,32,0.0,0.3978243978243977,0,0,weight objective: language average
+E5 Hybrid,606,pooled,289,0.0,0.4250899412363033,0,0,weight objective: language average
+E5 Hybrid,606,average,289,0.0,0.4130167736572754,0,0,weight objective: language average
+E5 LR (imbalance-aware),42,sun,226,0.0,0.4531476110339907,0,1,weight objective: language average
+E5 LR (imbalance-aware),42,jav,31,0.0,0.4927675371223758,0,1,weight objective: language average
+E5 LR (imbalance-aware),42,ind,33,0.0,0.4042770324504071,0,1,weight objective: language average
+E5 LR (imbalance-aware),42,pooled,290,0.0,0.4632851022816104,0,1,weight objective: language average
+E5 LR (imbalance-aware),42,average,290,0.0,0.4500640602022578,0,1,weight objective: language average
+E5 LR (imbalance-aware),7,sun,226,0.0,0.4334263241956916,0,1,weight objective: language average
+E5 LR (imbalance-aware),7,jav,31,0.0,0.3952757768547242,0,1,weight objective: language average
+E5 LR (imbalance-aware),7,ind,32,0.0,0.391445494077073,0,1,weight objective: language average
+E5 LR (imbalance-aware),7,pooled,289,0.0,0.4305836036882743,0,1,weight objective: language average
+E5 LR (imbalance-aware),7,average,289,0.0,0.4067158650424963,0,1,weight objective: language average
+E5 LR (imbalance-aware),13,sun,226,0.0,0.4481823354504712,0,1,weight objective: language average
+E5 LR (imbalance-aware),13,jav,31,0.0,0.5320984453470842,0,1,weight objective: language average
+E5 LR (imbalance-aware),13,ind,29,0.0,0.4418803418803418,0,1,weight objective: language average
+E5 LR (imbalance-aware),13,pooled,286,0.0,0.4617002746935107,0,1,weight objective: language average
+E5 LR (imbalance-aware),13,average,286,0.0,0.474053707559299,0,1,weight objective: language average
+E5 LR (imbalance-aware),77,sun,226,0.0,0.3804188634090666,0,1,weight objective: language average
+E5 LR (imbalance-aware),77,jav,31,0.0,0.3272737022737023,0,1,weight objective: language average
+E5 LR (imbalance-aware),77,ind,32,0.0,0.5306155172878433,0,1,weight objective: language average
+E5 LR (imbalance-aware),77,pooled,289,0.0,0.3973030495918219,0,1,weight objective: language average
+E5 LR (imbalance-aware),77,average,289,0.0,0.412769360990204,0,1,weight objective: language average
+E5 LR (imbalance-aware),101,sun,226,0.0,0.3867854661311369,0,0,weight objective: language average
+E5 LR (imbalance-aware),101,jav,31,0.0,0.453505717699266,0,0,weight objective: language average
+E5 LR (imbalance-aware),101,ind,32,0.0,0.4169312169312169,0,0,weight objective: language average
+E5 LR (imbalance-aware),101,pooled,289,0.0,0.4185550951648058,0,0,weight objective: language average
+E5 LR (imbalance-aware),101,average,289,0.0,0.4190741335872066,0,0,weight objective: language average
+E5 LR (imbalance-aware),202,sun,226,0.0,0.4323812559387641,0,1,weight objective: language average
+E5 LR (imbalance-aware),202,jav,31,0.0,0.4725271144625984,0,1,weight objective: language average
+E5 LR (imbalance-aware),202,ind,32,0.0,0.4352488202488203,0,1,weight objective: language average
+E5 LR (imbalance-aware),202,pooled,289,0.0,0.4494062647944259,0,1,weight objective: language average
+E5 LR (imbalance-aware),202,average,289,0.0,0.4467190635500609,0,1,weight objective: language average
+E5 LR (imbalance-aware),303,sun,226,0.0,0.4254604556650506,0,1,weight objective: language average
+E5 LR (imbalance-aware),303,jav,32,0.0,0.380731922398589,0,1,weight objective: language average
+E5 LR (imbalance-aware),303,ind,32,0.0,0.3052187249168673,0,1,weight objective: language average
+E5 LR (imbalance-aware),303,pooled,290,0.0,0.4142032614699255,0,1,weight objective: language average
+E5 LR (imbalance-aware),303,average,290,0.0,0.3704703676601689,0,1,weight objective: language average
+E5 LR (imbalance-aware),404,sun,226,0.0,0.4150783558878241,0,0,weight objective: language average
+E5 LR (imbalance-aware),404,jav,31,0.0,0.4052324973876697,0,0,weight objective: language average
+E5 LR (imbalance-aware),404,ind,32,0.0,0.4103925628222304,0,0,weight objective: language average
+E5 LR (imbalance-aware),404,pooled,289,0.0,0.4232030595305654,0,0,weight objective: language average
+E5 LR (imbalance-aware),404,average,289,0.0,0.4102344720325748,0,0,weight objective: language average
+E5 LR (imbalance-aware),505,sun,226,0.0,0.3863979917078147,0,1,weight objective: language average
+E5 LR (imbalance-aware),505,jav,31,0.0,0.432669838376041,0,1,weight objective: language average
+E5 LR (imbalance-aware),505,ind,32,0.0,0.4071699905033237,0,1,weight objective: language average
+E5 LR (imbalance-aware),505,pooled,289,0.0,0.4023884334324044,0,1,weight objective: language average
+E5 LR (imbalance-aware),505,average,289,0.0,0.4087459401957264,0,1,weight objective: language average
+E5 LR (imbalance-aware),606,sun,226,0.0,0.43050728452895387,0,0,weight objective: language average
+E5 LR (imbalance-aware),606,jav,31,0.0,0.41854256854256855,0,0,weight objective: language average
+E5 LR (imbalance-aware),606,ind,32,0.0,0.38214440195198546,0,0,weight objective: language average
+E5 LR (imbalance-aware),606,pooled,289,0.0,0.4322640828932552,0,0,weight objective: language average
+E5 LR (imbalance-aware),606,average,289,0.0,0.410398085007836,0,0,weight objective: language average

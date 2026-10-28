@@ -1,0 +1,82 @@
+{
+  "python": "3.13.15",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.16.1",
+  "sklearn": "1.6.1",
+  "numpy": "2.1.3",
+  "pandas": "2.3.3",
+  "gpu": "Tesla T4",
+  "amp_fp16": true,
+  "model": "intfloat/multilingual-e5-base",
+  "prefix": "query: ",
+  "max_len": 128,
+  "batch": 16,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "clip": 1.0,
+  "min_steps": 300,
+  "min_epochs": 10,
+  "max_epochs_cap": 40,
+  "patience": 3,
+  "lora_targets": [
+    "query",
+    "value"
+  ],
+  "grid_full": [
+    "full_first_ce_lr2e-05",
+    "full_first_ce_lr5e-05",
+    "full_first_wce_lr2e-05",
+    "full_first_wce_lr5e-05",
+    "full_mean_ce_lr2e-05",
+    "full_mean_ce_lr5e-05",
+    "full_mean_wce_lr2e-05",
+    "full_mean_wce_lr5e-05"
+  ],
+  "grid_lora": [
+    "lora_mean_wce_lr0.0005_r16",
+    "lora_mean_wce_lr0.001_r16"
+  ],
+  "selected": {
+    "full": "full_first_wce_lr2e-05",
+    "lora": "lora_mean_wce_lr0.001_r16"
+  },
+  "seeds": [
+    42,
+    7,
+    13,
+    77,
+    101,
+    202,
+    303,
+    404,
+    505,
+    606
+  ],
+  "sizes_A": [
+    100,
+    250,
+    500,
+    750,
+    1000
+  ],
+  "sizes_B": [
+    100,
+    250,
+    500,
+    750,
+    1000,
+    1500,
+    2500,
+    3510
+  ],
+  "pilot_seeds": [
+    42,
+    7
+  ],
+  "pilot_sizes": [
+    250,
+    1000
+  ],
+  "smoke_test": false,
+  "session_hours": 5.58
+}

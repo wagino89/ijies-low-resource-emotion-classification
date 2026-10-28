@@ -1,0 +1,16 @@
+{
+  "full": {
+    "family": "full",
+    "pooling": "first",
+    "loss": "wce",
+    "lr": 2e-05
+  },
+  "lora": {
+    "family": "lora",
+    "pooling": "mean",
+    "loss": "wce",
+    "lr": 0.001,
+    "lora_r": 16,
+    "lora_alpha": 32
+  }
+}

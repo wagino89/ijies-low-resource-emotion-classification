@@ -1,3 +1,15 @@
-results/main/predictions/
+# Python / Jupyter
 __pycache__/
 .ipynb_checkpoints/
+
+# first-submission predictions are shipped as results/main/predictions.zip
+results/main/predictions/
+
+# full fine-tuning checkpoints (~556 MB each, above the GitHub 100 MB limit) -> GitHub Releases
+results/rerun_finetune/checkpoints/
+*.pt
+!results/rerun_finetune/lora_adapters/*.pt
+
+# local working folders
+work/
+embedding_cache/
