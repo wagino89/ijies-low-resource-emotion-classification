@@ -1,0 +1,7 @@
+check,passed,detail
+1. partitions disjoint,True,"40 dataset×language×seed groups, 68300 rows"
+2. split manifests identical across versions,True,results/main/split_manifest_all.csv sha256 d83e011b6026; results/rerun_frozen/split_manifest_all.csv sha256 d83e011b6026; results/reconcile_lr/split_manifest_this_run.csv sha256 d83e011b6026
+3. learning-curve subsets within the training partition,True,"10 seeds, 35100 ranked texts, 0 outside"
+4. regime-A inner splits within the n-text subset (results/rerun_finetune/regimeA_inner_splits.csv),True,"50 seed×size groups, 0 violations"
+4. regime-A inner splits within the n-text subset (results/crossover_decomp/regimeA_inner_splits.csv),True,"50 seed×size groups, 0 violations"
+5. SHAP sample drawn from the seed-42 test partition,True,"197 texts, 0 outside the test partition"

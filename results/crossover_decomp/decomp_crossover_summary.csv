@@ -1,0 +1,19 @@
+cell,budget,comparator,test,seeds,frozen_significantly_better_at,ft_significantly_better_at,ft_numerically_ahead_from,ft_significantly_ahead_from,delta_at_100
+first submission E2b,"E2b budget, first submission (5 seeds, independent subsets)",original recipe,p_holm,5,-,3510,500,3510.0,0.16321862477262575
+first submission E2b,"E2b budget, first submission (5 seeds, independent subsets)",original recipe,p_holm_conservative,5,-,3510,500,3510.0,0.16321862477262575
+E2b|original,"E2b budget (first submission): frozen on n, FT selects on validation",original recipe,p_holm,10,"100,250","750,1000,1500,2500,3510",500,750.0,0.22949037050573234
+E2b|original,"E2b budget (first submission): frozen on n, FT selects on validation",original recipe,p_holm_conservative,10,-,"750,1000,1500,2500,3510",500,750.0,0.22949037050573234
+E2b|tuned,"E2b budget (first submission): frozen on n, FT selects on validation",tuned full FT,p_holm,10,-,"500,750,1000,1500,2500,3510",100,500.0,-0.021410546041164318
+E2b|tuned,"E2b budget (first submission): frozen on n, FT selects on validation",tuned full FT,p_holm_conservative,10,-,"500,1500,2500,3510",100,500.0,-0.021410546041164318
+E2b|lora,"E2b budget (first submission): frozen on n, FT selects on validation",tuned LoRA,p_holm,10,-,"500,750,1000,1500,2500,3510",100,500.0,-0.037774326966214175
+E2b|lora,"E2b budget (first submission): frozen on n, FT selects on validation",tuned LoRA,p_holm_conservative,10,-,"1000,1500,2500,3510",100,1000.0,-0.037774326966214175
+A|original,Regime A (label-matched),original recipe,p_holm,10,"100,250",1000,500,1000.0,0.32487017263694906
+A|original,Regime A (label-matched),original recipe,p_holm_conservative,10,-,-,500,,0.32487017263694906
+A|tuned,Regime A (label-matched),tuned full FT,p_holm,10,-,"750,1000",250,750.0,0.10783343600224793
+A|tuned,Regime A (label-matched),tuned full FT,p_holm_conservative,10,-,1000,250,1000.0,0.10783343600224793
+B|original,Regime B (selection-matched),original recipe,p_holm,10,"100,250","750,1000,1500,2500,3510",500,750.0,0.24605652025989397
+B|original,Regime B (selection-matched),original recipe,p_holm_conservative,10,-,"1500,2500,3510",500,1500.0,0.24605652025989397
+B|tuned,Regime B (selection-matched),tuned full FT,p_holm,10,-,"250,500,750,1000,1500,2500,3510",100,250.0,-0.004844396287002667
+B|tuned,Regime B (selection-matched),tuned full FT,p_holm_conservative,10,-,"1500,2500,3510",100,1500.0,-0.004844396287002667
+B|lora,Regime B (selection-matched),tuned LoRA,p_holm,10,-,"100,250,500,750,1000,1500,2500,3510",100,100.0,-0.02120817721205252
+B|lora,Regime B (selection-matched),tuned LoRA,p_holm_conservative,10,-,"1500,2500,3510",100,1500.0,-0.02120817721205252

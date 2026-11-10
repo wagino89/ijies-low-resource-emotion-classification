@@ -10,10 +10,12 @@ The study evaluates a frozen **multilingual-E5-base** encoder (prefix `query: `,
 | **E2** | Learning curve on Tokopedia against tuned full fine-tuning and LoRA under three label-budget regimes (RQ3) | `03-rerun-frozen-cpu.ipynb` (frozen) + `04-rerun-finetune-gpu.ipynb` (fine-tuning) |
 | **E3** | SHAP faithfulness on a prespecified stratified sample (RQ4) | `05_rerun_shap.ipynb` |
 | **E4** | Re-implemented SemEval-2025 systems (UoB-NLP-style adapter, Team UBD-style class-balanced training) on the same partitions (RQ3) | `06_rerun_paketD_gpu.ipynb` + `06b_rerun_paketD_adapter_v2_gpu.ipynb` |
+| Check R1 | Reconciliation of the LR-only results with the first submission (second review round) | `07_reconcile_lr_cpu.ipynb` |
+| Check R2 | Decomposition of the change of the fine-tuning crossover: label budget vs. tuning/LoRA (Table 10) | `08_crossover_decomposition_gpu.ipynb` |
 
-All results in the revised manuscript come from these notebooks. Every frozen-pipeline configuration was fitted in **one** CPU session on the same ten seeds (42, 7, 13, 77, 101, 202, 303, 404, 505, 606).
+All results in the revised manuscript come from these notebooks. What changed between the first submission and the revision, and which results are newly trained or re-analysed, is listed in [`CHANGELOG_v1_to_v2.md`](CHANGELOG_v1_to_v2.md); every table is linked to its files in [`results/table_to_file.csv`](results/table_to_file.csv). Every frozen-pipeline configuration was fitted in **one** CPU session on the same ten seeds (42, 7, 13, 77, 101, 202, 303, 404, 505, 606).
 
-> **Versions.** The first submission was produced by `notebooks/01_main_experiment.ipynb` and `02_ablation_lr_regularization.ipynb` (outputs in `results/main/`, `results/ablation_lr_regularization/`, `results/post_hoc/`). These files are kept only so that the first round of review can be audited; they are superseded by the `rerun_*` folders and are **not** used by the revised manuscript.
+> **Versions.** The first submission was produced by `notebooks/01_main_experiment.ipynb` and `02_ablation_lr_regularization.ipynb` (outputs in `results/main/`, `results/ablation_lr_regularization/`, `results/post_hoc/`). These files are kept so that both review rounds can be audited. They are superseded by the `rerun_*` folders; the revised manuscript does not use them; notebooks 07 and 08 read them from this repository to reconcile the two versions for the second review round (see `CHANGELOG_v1_to_v2.md`).
 
 ## Repository layout
 
@@ -24,12 +26,15 @@ notebooks/
   05_rerun_shap.ipynb                      E3, SHAP faithfulness (Kaggle CPU, ≈ 1 h)
   06_rerun_paketD_gpu.ipynb                E4, UoB-NLP-style adapter and Team UBD-style system (Kaggle T4)
   06b_rerun_paketD_adapter_v2_gpu.ipynb    E4, adapter with tuned-threshold early stopping (replaces the adapter of 06)
+  07_reconcile_lr_cpu.ipynb                second round: LR-only reconciliation with the first submission (Kaggle CPU, ≈ 70 min)
+  08_crossover_decomposition_gpu.ipynb     second round: original fine-tuning recipe in regimes A/B + decomposition (Kaggle T4, ≈ 7 h)
   01_main_experiment.ipynb                 first submission (superseded)
   02_ablation_lr_regularization.ipynb      first submission, separate-session ablation (superseded)
 scripts/
   analyze_rerun.py                         E1 and E2 statistics → results/rerun_tables/E1_*, LC_*
   post_hoc_rerun.py                        per-class F1 and SemEval support/CIs → results/rerun_tables/T6_*, T7_*
   analyze_paketD.py                        E4 statistics → results/rerun_tables/paketD_*
+  audit_test_access.py                     data-level check that no test text enters fitting or selection → results/audit_test_access.csv
   post_hoc_analysis.py, make_figures.py    first submission (superseded)
 results/
   rerun_frozen/        outputs of notebook 03
@@ -38,6 +43,11 @@ results/
   rerun_paketD/        outputs of notebook 06
   rerun_paketD_v2/     outputs of notebook 06b
   rerun_tables/        tables computed by the three scripts above
+  reconcile_lr/        outputs of notebook 07
+  crossover_decomp/    outputs of notebook 08 (Table 10)
+  table_to_file.csv    manuscript table → raw results, predictions, selection records, scripts, SHA-256
+  audit_test_access.csv
+CHANGELOG_v1_to_v2.md  version-to-version change log
   main/, ablation_lr_regularization/, post_hoc/   first submission (superseded)
 figures/               Figs. 1–6 of the revised manuscript (`*_rerun.png`; Fig. 1 also as editable draw.io file)
 requirements.txt
@@ -54,7 +64,7 @@ Each language and the Tokopedia corpus are split per seed in two stages (65% tra
 
 On Kaggle, add both datasets with *Add Input*; the notebooks find the files under `/kaggle/input` automatically. To run elsewhere, set `MEXBAL_DATA` to the folder that holds the data and `MEXBAL_WORK` to an output folder. `MEXBAL_SMOKE=1` runs a short smoke test.
 
-**Embedding cache.** Notebooks 03 and 05 compute the frozen encoder embeddings once and cache them. The reported run used a cached copy (Kaggle dataset `embedding-cache-me-xbal`); its fingerprints are in `results/rerun_frozen/environment_cpu.json`. Without this cache the notebooks recompute the embeddings, which can differ in the last digits on other hardware (see *Reproducibility* below).
+**Embedding cache (required for exact reproduction).** Notebooks 03, 05 and 07 compute the frozen encoder embeddings once and cache them. The reported runs used the cached copy in the Kaggle dataset `embedding-cache-me-xbal`; the fingerprints of all twelve matrices are in `results/reconcile_lr/embedding_fingerprints.csv` (Tokopedia also in `results/rerun_frozen/environment_cpu.json`). Without the cache the notebooks re-encode the texts. With current library versions on CPU, the re-encoded E5 and XLM-R embeddings are close to the cache (minimum cosine 0.977 and 0.998), but the IndoBERT embeddings are not (minimum cosine 0.31; `results/reconcile_lr/embedding_fresh_vs_cache.csv`), so IndoBERT results can only be reproduced from the cache.
 
 ## How to reproduce
 
@@ -66,13 +76,16 @@ Run the notebooks on Kaggle with *Save & Run All (Commit)*, Internet on. Long lo
 | 2 | `notebooks/04-rerun-finetune-gpu.ipynb` | Kaggle GPU T4 (two sessions) | none (optional: output of step 1, to verify that the nested subsets match `lc_subset_order.csv`) |
 | 3 | `notebooks/05_rerun_shap.ipynb` | Kaggle CPU (accelerator **None**) | embedding cache of step 1 |
 | 4 | `notebooks/06_rerun_paketD_gpu.ipynb`, then `06b_rerun_paketD_adapter_v2_gpu.ipynb` | Kaggle GPU T4 | output of step 1 (`split_manifest_all.csv`) |
-| 5 | scripts below | any CPU, seconds | `results/` |
+| 5 | `notebooks/07_reconcile_lr_cpu.ipynb` | Kaggle CPU, Internet on | embedding cache; reference results are cloned from this repository at a fixed commit |
+| 6 | `notebooks/08_crossover_decomposition_gpu.ipynb` | Kaggle GPU T4, Internet on | none (reference results cloned at a fixed commit) |
+| 7 | scripts below | any CPU, seconds | `results/` |
 
 ```bash
 pip install -r requirements.txt
 python scripts/analyze_rerun.py  --frozen results/rerun_frozen --ft results/rerun_finetune --out results/rerun_tables
 python scripts/post_hoc_rerun.py --frozen results/rerun_frozen --out results/rerun_tables
 python scripts/analyze_paketD.py --frozen results/rerun_frozen --paketd results/rerun_paketD results/rerun_paketD_v2 --out results/rerun_tables
+python scripts/audit_test_access.py --out results/audit_test_access.csv
 ```
 
 `analyze_paketD.py` takes the Team UBD-style results from `rerun_paketD/` and the UoB-NLP-style adapter results from `rerun_paketD_v2/` (a later folder replaces the systems it contains). The adapter in `rerun_paketD/` stopped too early because it monitored Macro F1 at a fixed threshold of 0.5; notebook 06b monitors Macro F1 with tuned per-emotion thresholds and selects the learning rate on the validation partition.
@@ -81,7 +94,7 @@ Notebook 05 must run on the same kind of machine as notebook 03: it first refits
 
 ### Statistics
 
-Every paired comparison over the ten seeds uses the Nadeau–Bengio corrected resampled t-test (ratio n_test/n_dev = 0.25), with 95% confidence intervals from the same corrected standard error, the two-sided Wilcoxon signed-rank test, and Holm adjustment within each family: the ten comparators of the main comparison on each dataset, the contrasts of each metric in the factorial analysis, the training sizes of each learning-curve comparison, and the four re-implemented systems. For the learning curve, the conservative ratio 1081/n is reported as a sensitivity analysis.
+Every paired comparison over the ten seeds uses the Nadeau–Bengio corrected resampled t-test (ratio n_test/n_dev = 0.25), with 95% confidence intervals from the same corrected standard error, the two-sided Wilcoxon signed-rank test, and Holm adjustment within each family: the ten comparators of the main comparison on each dataset, the contrasts of each metric in the factorial analysis, the training sizes of each learning-curve comparison or decomposition cell, and the four re-implemented systems. For the learning curve, the conservative ratio 1081/n is reported as a sensitivity analysis.
 
 ## Where each manuscript table and figure comes from
 
@@ -96,10 +109,12 @@ Every paired comparison over the ten seeds uses the Nadeau–Bengio corrected re
 | Table 7 (SemEval test support and corrected CIs) | `results/rerun_tables/T7_semeval_support_ci.csv` |
 | Table 8 (component and factorial contrasts) | `results/rerun_tables/E1_table_factorial_contrasts.csv` |
 | Section 4.2, session variability and sensitivity | `results/rerun_frozen/determinism_check.csv`; `results/rerun_tables/E1_table_sensitivity.csv`, `E1_table_selection_diagnostics.csv` (raw: `results/rerun_frozen/E1_SemEval_sensitivity_raw.csv`) |
+| Section 4.2, reconciliation of the LR rows of Table 3 with the first submission | `results/reconcile_lr/D_table3_LR_reconciliation.csv`, `D_table3_LR_per_seed.csv`, `B_semeval_vs_reference.csv`, `C_tokopedia_vs_reference.csv` |
 | Table 9 (learning curve) | `results/rerun_tables/LC_table_performance.csv`, `LC_table_comparisons.csv`, `LC_table_crossover_summary.csv`, `LC_table_finetune_diagnostics.csv` (raw: `results/rerun_frozen/LC_frozen_raw.csv`, `results/rerun_finetune/ft_runs.csv`) |
-| Table 10 (re-implemented SemEval-2025 systems) | `results/rerun_tables/paketD_performance.csv`, `paketD_comparisons.csv` |
-| Table 11 (SHAP faithfulness) | `results/rerun_shap/faithfulness_summary.csv` (per text: `faithfulness_per_text.csv`) |
-| Table 12 (notation) | no code |
+| Table 10 (label budget U/A/B × default vs. tuned fine-tuning; *default recipe* = first-submission recipe, *U* = first-submission E2b budget) | `results/crossover_decomp/decomp_cells.csv`, `decomp_effects.csv`, `decomp_crossover_summary.csv` (raw: `ft_original_runs.csv` + the Table 9 raw files; fidelity check: `fidelity_replay.csv`) |
+| Table 11 (re-implemented SemEval-2025 systems) | `results/rerun_tables/paketD_performance.csv`, `paketD_comparisons.csv` |
+| Table 12 (SHAP faithfulness) | `results/rerun_shap/faithfulness_summary.csv` (per text: `faithfulness_per_text.csv`) |
+| Table 13 (notation) | no code |
 | Fig. 1 (workflow) | `figures/fig1_pipeline.png`, `figures/fig1_pipeline.drawio` |
 | Fig. 2 (learning curve) | `figures/fig2_learning_curve_rerun.png`; data: `results/rerun_tables/LC_table_performance.csv` |
 | Figs. 3–5 (SHAP, Sundanese / Javanese / Indonesian) | `figures/fig3_shap_semeval_sun_rerun.png`, `fig4_shap_semeval_jav_rerun.png`, `fig5_shap_semeval_ind_rerun.png`; data: `results/rerun_shap/figures/SHAP_SemEval_{sun,jav,ind}.csv`, texts in `examples_manifest.csv` |
@@ -122,6 +137,9 @@ Every paired comparison over the ten seeds uses the Nadeau–Bengio corrected re
 | SHAP sample (IDs, strata, candidates), exclusion record, attributions | `results/rerun_shap/sample_manifest.csv`, `candidates_seed42.csv`, `exclusions.csv`, `shap_values.jsonl` |
 | Random-ranking seeds and masking variants | `results/rerun_shap/environment_shap.json` (`sample_seed`, `n_random`, `replacements`) and `faithfulness_per_text.csv` |
 | Determinism check (same session, thread count, earlier run) | `results/rerun_frozen/determinism_check.csv` |
+| Reconciliation with the first submission (all seeds, both fold procedures, text-level) | `results/reconcile_lr/` |
+| No test text in fitting or selection | `results/audit_test_access.csv` (`scripts/audit_test_access.py`); code-level description in `CHANGELOG_v1_to_v2.md` §5 |
+| Original fine-tuning recipe: runs, histories, predictions | `results/crossover_decomp/ft_original_runs.csv`, `ft_original_history.csv`, `predictions/` |
 | Environment | `results/*/environment_*.json`, `results/rerun_frozen/pip_freeze_cpu.txt`, `results/rerun_finetune/pip_freeze_gpu.txt` |
 
 ## Environment
@@ -133,8 +151,9 @@ Every paired comparison over the ten seeds uses the Nadeau–Bengio corrected re
 ## Reproducibility
 
 - Repeating a configuration in the same session reproduces every prediction, and changing the XGBoost thread count changes none (`determinism_check.csv`).
-- XGBoost trees can differ between processor types. XGBoost therefore uses 4 threads and inputs rounded to 1e-5, and all frozen-pipeline results come from one machine type. On other hardware, XGBoost-based scores can differ slightly; LR-only results do not.
-- Compared with the first submission, LR results on XLM-R and IndoBERT are identical, whereas XGBoost-based scores and the E5 LR score differ because of the newer XGBoost release (3.4.1 vs. 3.2.0) and E5 embeddings that are not bit-identical to the earlier ones.
+- A new session (notebook 07) reproduces every prediction of the LR-only models of the revision (30/30 SemEval and 30/30 Tokopedia runs).
+- XGBoost trees can differ between processor types. XGBoost therefore uses 4 threads and inputs rounded to 1e-5, and all frozen-pipeline results come from one machine type.
+- **Correction of an earlier statement.** An earlier version of this README stated that the LR results on XLM-R and IndoBERT are identical to the first submission. That was checked only for Tokopedia seed 42 and does not hold in general. The SemEval scores changed mainly because the inner folds are now stratified on the emotions and the language: with the first-submission folds, the language-averaged means return to the first-submission values within 0.001. Small residual differences (21–46 of about 2,900 SemEval test texts per model; Tokopedia |ΔF1| ≤ 0.006) are consistent with first-submission embeddings that are not bit-identical to the archived cache. Details: `CHANGELOG_v1_to_v2.md` §3.
 
 ## Label note
 

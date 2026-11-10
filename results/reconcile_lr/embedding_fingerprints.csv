@@ -1,0 +1,13 @@
+matrix,fingerprint_this_run,fingerprint_revision,identical_to_revision,source
+tokopedia_e5,c8b166dc5686,c8b166dc5686,True,cache
+tokopedia_xlmr,12d91e75b8a2,12d91e75b8a2,True,cache
+tokopedia_indobert,cb99cca05bf8,cb99cca05bf8,True,cache
+semeval_e5_sun,7983f1d55c9b,not recorded,,cache
+semeval_e5_jav,02d02c90d5fa,not recorded,,cache
+semeval_e5_ind,1a1b8a32e310,not recorded,,cache
+semeval_xlmr_sun,a87f30f8f9df,not recorded,,cache
+semeval_xlmr_jav,e3bfe898d4a6,not recorded,,cache
+semeval_xlmr_ind,eb6ea701d5ca,not recorded,,cache
+semeval_indobert_sun,e58fd09685b0,not recorded,,cache
+semeval_indobert_jav,8981d40649e9,not recorded,,cache
+semeval_indobert_ind,47ee3e9a9384,not recorded,,cache
